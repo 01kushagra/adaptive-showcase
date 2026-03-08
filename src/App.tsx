@@ -16,7 +16,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/adaptive-showcase">
         <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />

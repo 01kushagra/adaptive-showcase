@@ -27,6 +27,7 @@ export const works: WorkItem[] = [
     title: "Geometric Poster Series",
     description: "Bold abstract geometric compositions exploring neon green and black contrasts for a tech startup campaign.",
     image: work1,
+    images: [work2, work6],
     category: "Poster Design",
   },
   {

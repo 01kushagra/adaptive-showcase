@@ -309,6 +309,67 @@ const MasonryGrid = ({ items }: MasonryGridProps) => {
 // };
 
 /* ─── Image Carousel ─── */
+// const ImageCarousel = ({ item }: { item: WorkItem }) => {
+//   const allImages = [item.image, ...(item.images || [])];
+//   const [current, setCurrent] = useState(0);
+//   const hasMultiple = allImages.length > 1;
+
+//   useEffect(() => { setCurrent(0); }, [item.id]);
+
+//   return (
+//     <div className="relative flex flex-col items-center w-full h-full">
+//       <div className="flex-1 min-h-0 w-full flex items-center justify-center">
+//         <AnimatePresence mode="wait">
+//           <motion.img
+//             key={`${item.id}-${current}`}
+//             src={allImages[current]}
+//             alt={`${item.title} - ${current + 1}`}
+//             className="max-w-full max-h-full object-contain rounded-lg"
+//             initial={{ opacity: 0, x: 30 }}
+//             animate={{ opacity: 1, x: 0 }}
+//             exit={{ opacity: 0, x: -30 }}
+//             transition={{ duration: 0.25 }}
+//           />
+//         </AnimatePresence>
+//       </div>
+
+//       {hasMultiple && (
+//         <div className="flex items-center justify-center gap-3 pt-4 w-full px-2 sm:px-4">
+//           <button
+//             onClick={() => setCurrent((p) => Math.max(0, p - 1))}
+//             disabled={current === 0}
+//             className="shrink-0 rounded-full p-1.5 border border-border text-foreground hover:border-primary disabled:opacity-20 transition-all"
+//           >
+//             <ChevronLeft size={14} />
+//           </button>
+          
+//           {/* Added flex-wrap, max-width, and justify-center to handle many dots */}
+//           <div className="flex flex-wrap justify-center gap-1.5 max-w-[200px] sm:max-w-[350px]">
+//             {allImages.map((_, i) => (
+//               <button
+//                 key={i}
+//                 onClick={() => setCurrent(i)}
+//                 className={`h-1.5 shrink-0 rounded-full transition-all duration-300 ${
+//                   i === current ? "w-5 bg-primary" : "w-1.5 bg-muted-foreground/30 hover:bg-muted-foreground/50"
+//                 }`}
+//               />
+//             ))}
+//           </div>
+          
+//           <button
+//             onClick={() => setCurrent((p) => Math.min(allImages.length - 1, p + 1))}
+//             disabled={current === allImages.length - 1}
+//             className="shrink-0 rounded-full p-1.5 border border-border text-foreground hover:border-primary disabled:opacity-20 transition-all"
+//           >
+//             <ChevronRight size={14} />
+//           </button>
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+/* ─── Image Carousel ─── */
 const ImageCarousel = ({ item }: { item: WorkItem }) => {
   const allImages = [item.image, ...(item.images || [])];
   const [current, setCurrent] = useState(0);
@@ -316,19 +377,34 @@ const ImageCarousel = ({ item }: { item: WorkItem }) => {
 
   useEffect(() => { setCurrent(0); }, [item.id]);
 
+  // Handle drag/swipe gestures
+  const handleDragEnd = (e: any, { offset }: any) => {
+    const swipeThreshold = 50; // pixels needed to trigger swipe
+    if (offset.x < -swipeThreshold && current < allImages.length - 1) {
+      setCurrent(current + 1); // Swiped left -> Next
+    } else if (offset.x > swipeThreshold && current > 0) {
+      setCurrent(current - 1); // Swiped right -> Previous
+    }
+  };
+
   return (
-    <div className="relative flex flex-col items-center w-full h-full">
-      <div className="flex-1 min-h-0 w-full flex items-center justify-center">
+    <div className="relative flex flex-col items-center w-full h-full touch-none">
+      <div className="flex-1 min-h-0 w-full flex items-center justify-center overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.img
             key={`${item.id}-${current}`}
             src={allImages[current]}
             alt={`${item.title} - ${current + 1}`}
-            className="max-w-full max-h-full object-contain rounded-lg"
+            className="max-w-full max-h-full object-contain rounded-lg cursor-grab active:cursor-grabbing"
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -30 }}
             transition={{ duration: 0.25 }}
+            // Drag properties restored
+            drag={hasMultiple ? "x" : false}
+            dragConstraints={{ left: 0, right: 0 }}
+            dragElastic={0.2}
+            onDragEnd={handleDragEnd}
           />
         </AnimatePresence>
       </div>
@@ -343,7 +419,7 @@ const ImageCarousel = ({ item }: { item: WorkItem }) => {
             <ChevronLeft size={14} />
           </button>
           
-          {/* Added flex-wrap, max-width, and justify-center to handle many dots */}
+          {/* Flex-wrap, max-width, and justify-center to handle many dots */}
           <div className="flex flex-wrap justify-center gap-1.5 max-w-[200px] sm:max-w-[350px]">
             {allImages.map((_, i) => (
               <button
@@ -368,6 +444,7 @@ const ImageCarousel = ({ item }: { item: WorkItem }) => {
     </div>
   );
 };
+
 /* ─── PDF Viewer ─── */
 const PdfViewer = ({ url }: { url: string }) => (
   <div className="h-full flex flex-col">

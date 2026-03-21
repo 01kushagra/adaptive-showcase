@@ -25,6 +25,11 @@ import worksmooth from "@/assets/smooth-transfers.jpg";
 import workttj from "@/assets/ttj-invite-1.jpg";
 import workvclass from "@/assets/v-class.jpg";
 import workvito from "@/assets/vito.jpg";
+import postergow from "@/assets/god-of-war.jpg";
+import posterburger from "@/assets/burger-ad-poster.jpg";
+import postermagcover from "@/assets/magazine-cover.jpg";
+import posternightking from "@/assets/the-knight-king.jpg";
+import posteralbum from "@/assets/album-cover.jpg";
 import c1services from "@/assets/handcrafted-services.jpg";
 import c101 from "@/assets/city-breaks copy.jpg";
 import c102 from "@/assets/multi-country-tours.jpg";
@@ -88,7 +93,23 @@ import b48 from "@/assets/b48.jpg";
 import b49 from "@/assets/b49.jpg";
 import b50 from "@/assets/b50.jpg";
 import b51 from "@/assets/b51.jpg";
-
+import logosmc1 from "@/assets/smc-club-white.jpg";
+import logosmc2 from "@/assets/smc-club.jpg";
+import logosmc3 from "@/assets/smc-favicon-b.jpg";
+import logosmc4 from "@/assets/smc-favicon-w.jpg";
+import logogtdmc1 from "@/assets/global-tdmc-white.jpg";
+import logogtdmc2 from "@/assets/global-tdmc-black.jpg";
+import logogtdmc3 from "@/assets/global-tdmc-blue.jpg";
+import logogtdmc4 from "@/assets/favicon-white.jpg";
+import logogtdmc5 from "@/assets/favicon-black.jpg";
+import logorefill from "@/assets/refill-box.jpg";
+import logonovelty1 from "@/assets/novelty-flowers-v1.jpg";
+import logonovelty2 from "@/assets/novelty-flowers-v1w.jpg";
+import logonovelty3 from "@/assets/novelty-flowers-v2w.jpg";
+import logonovelty4 from "@/assets/novelty-flowers-v2-green.jpg";
+import logoallinone from "@/assets/all-in-one.jpg";
+import logoblueeyes from "@/assets/blue-eyes.jpg";
+import logonovanest from "@/assets/novanest.jpg";
 
 export interface WorkItem {
   id: string;
@@ -306,5 +327,71 @@ export const works: WorkItem[] = [
     image: b1c,
     images: [b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51],
     category: "Magazine & Brochure Design",
+  },
+   {
+    id: "28",
+    title: "God of War Poster",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: postergow,
+    category: "Posters & Covers",
+  },
+   {
+    id: "29",
+    title: "The Night King Poster",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: posternightking,
+    category: "Posters & Covers",
+  },
+   {
+    id: "30",
+    title: "Magazine Cover",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: postermagcover,
+    category: "Posters & Covers",
+  },
+   {
+    id: "31",
+    title: "Music Album Cover",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: posteralbum,
+    category: "Posters & Covers",
+  },
+   {
+    id: "32",
+    title: "Burger Ad Poster",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: posterburger,
+    category: "Posters & Covers",
+  },
+    {
+    id: "33",
+    title: "Global Travel DMC",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: logogtdmc1,
+    images: [logogtdmc2, logogtdmc3, logogtdmc4, logogtdmc5],
+    category: "Logo Design & Branding",
+  },
+  {
+    id: "34",
+    title: "Novelt Flowers",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: logonovelty1,
+    images: [logonovelty2, logonovelty3, logonovelty4],
+    category: "Logo Design & Branding",
+  },
+  {
+    id: "35",
+    title: "SMC Club",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: logosmc1,
+    images: [logosmc2, logosmc3, logosmc4],
+    category: "Logo Design & Branding",
+  },
+  {
+    id: "36",
+    title: "SMC Club",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: logoallinone,
+    category: "Logo Design & Branding",
   },
 ];

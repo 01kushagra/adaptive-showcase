@@ -23,7 +23,7 @@ const socialLinks = [
   { label: "Resume", href: "https://drive.google.com/file/d/1neawC_ymwsC6vBbf0-CArlv2KbpAPrR1/view?usp=sharing" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/kushagra-arora-29236621b/" },
   { label: "Behance", href: "https://www.behance.net/kushagraarora3" },
-  { label: "Drive", href: "https://drive.google.com/drive/folders/1O_xViakxIjoX8Hph0MwmQmtnrge13noK?usp=sharing" },
+  { label: "Notion", href: "https://delicate-salesman-ef8.notion.site/Hey-I-m-Kushagra-Arora-UI-UX-Designer-based-in-Delhi-2146f2ef586f800390f5ded8d365bee1" },
 ];
 
 const stats = [

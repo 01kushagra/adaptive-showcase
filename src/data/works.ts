@@ -110,6 +110,16 @@ import logonovelty4 from "@/assets/novelty-flowers-v2-green.jpg";
 import logoallinone from "@/assets/all-in-one.jpg";
 import logoblueeyes from "@/assets/blue-eyes.jpg";
 import logonovanest from "@/assets/novanest.jpg";
+import uxtoa01 from "@/assets/the-one-awards.jpg";
+import uxtoa02 from "@/assets/the-one-awards-01.jpg";
+import uxtoa03 from "@/assets/the-one-awards-02.jpg";
+import uxtoa04 from "@/assets/the-one-awards-03.jpg";
+import uxnr from "@/assets/nft-rizz.jpg";
+import uxnr01 from "@/assets/nft-rizz-01.jpg";
+import uxnr02 from "@/assets/nft-rizz-02.jpg";
+import uxnr03 from "@/assets/nft-rizz-03.jpg";
+import uxnr04 from "@/assets/nft-rizz-05.jpg";
+
 
 export interface WorkItem {
   id: string;
@@ -142,7 +152,8 @@ export const works: WorkItem[] = [
     description: "Complete brand identity including business cards, letterheads, and brand guidelines for a premium real estate firm.",
     image: workbigbus,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    // link: "https://www.behance.net/kushagraarora3",
+    link: "https://delicate-salesman-ef8.notion.site/28d6f2ef586f8075970bc1960ce3d36b?embed=true"
   },
   {
     id: "3",
@@ -300,13 +311,6 @@ export const works: WorkItem[] = [
     category: "Social Media Creatives",
   },
    {
-    id: "24",
-    title: "Ad-Hoc Groups",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workadhoc,
-    category: "Social Media Creatives",
-  },
-   {
     id: "25",
     title: "Eiffel Tower",
     description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
@@ -373,7 +377,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "34",
-    title: "Novelt Flowers",
+    title: "Novelty Flowers",
     description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
     image: logonovelty1,
     images: [logonovelty2, logonovelty3, logonovelty4],
@@ -389,9 +393,46 @@ export const works: WorkItem[] = [
   },
   {
     id: "36",
-    title: "SMC Club",
+    title: "All in One",
     description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
     image: logoallinone,
     category: "Logo Design & Branding",
+  },
+   {
+    id: "37",
+    title: "Refill Box",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: logorefill,
+    category: "Logo Design & Branding",
+  },
+   {
+    id: "38",
+    title: "Blue Eyes",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: logoblueeyes,
+    category: "Logo Design & Branding",
+  },
+   {
+    id: "39",
+    title: "Nova Nest",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: logonovanest,
+    category: "Logo Design & Branding",
+  },
+   {
+    id: "40",
+    title: "The One Awards - Website Landing Page",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: uxtoa01,
+    images: [uxtoa02, uxtoa03, uxtoa04],
+    category: "UX Design",
+  },
+   {
+    id: "41",
+    title: "NFT Rizz - Website Landing Page",
+    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
+    image: uxnr,
+    images: [uxnr01, uxnr02, uxnr03, uxnr04],
+    category: "UX Design",
   },
 ];

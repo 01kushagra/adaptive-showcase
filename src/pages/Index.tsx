@@ -27,8 +27,8 @@ const socialLinks = [
 ];
 
 const stats = [
-  { value: "2+", label: "Years Experience" },
-  { value: "30+", label: "Projects Done" },
+  { value: "3+", label: "Years Experience" },
+  { value: "45+", label: "Projects Done" },
   { value: "15+", label: "Happy Clients" },
 ];
 

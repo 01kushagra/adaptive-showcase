@@ -127,7 +127,7 @@ const MasonryGrid = ({ items }: MasonryGridProps) => {
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                     >
-                      View Casestudy
+                      Explore Work
                       <ChevronRight size={15} className="transition-transform group-hover:translate-x-0.5" />
                     </motion.a>
                   )}

@@ -22,7 +22,7 @@ const Work = () => {
           My Work
         </h1>
         <p className="mt-3 text-muted-foreground max-w-lg">
-          A collection of projects spanning branding, digital art, UI design, and more. Click any piece to learn more.
+          A collection of design work across branding, digital experiences, and visual storytelling. Explore each project to see the process and impact.
         </p>
 
         {/* Category filters */}
@@ -31,11 +31,10 @@ const Work = () => {
             <button
               key={cat}
               onClick={() => setActive(cat)}
-              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 border ${
-                active === cat
-                  ? "bg-primary text-primary-foreground border-primary"
-                  : "bg-transparent text-muted-foreground border-border hover:text-foreground hover:border-muted-foreground"
-              }`}
+              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 border ${active === cat
+                ? "bg-primary text-primary-foreground border-primary"
+                : "bg-transparent text-muted-foreground border-border hover:text-foreground hover:border-muted-foreground"
+                }`}
             >
               {cat}
             </button>

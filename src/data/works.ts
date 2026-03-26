@@ -1,231 +1,314 @@
 // --- SOCIAL MEDIA POSTS - GTDMC ---
-import workbigbus from "@/assets/social-media-posts/gtdmc/big-bus-tours.jpg";
-import workservices from "@/assets/social-media-posts/gtdmc/services-post.jpg";
-import worksatte from "@/assets/social-media-posts/gtdmc/satte-invite-2.jpg";
-import workvatican from "@/assets/social-media-posts/gtdmc/vatican-museum.jpg";
-import workcolosseum from "@/assets/social-media-posts/gtdmc/colosseum.jpg";
-import workonground from "@/assets/social-media-posts/gtdmc/on-ground-service.jpg";
-import workartic from "@/assets/social-media-posts/gtdmc/the-arctic-route.jpg";
-import workcitybreaks from "@/assets/social-media-posts/gtdmc/city-breaks.jpg";
-import workeastern from "@/assets/social-media-posts/gtdmc/eastern-europe-van-tours.jpg";
-import workhappytravelers from "@/assets/social-media-posts/gtdmc/happy-travelers.jpg";
-import workpilatus from "@/assets/social-media-posts/gtdmc/pilatus.jpg";
-import workgtdmcpost from "@/assets/social-media-posts/gtdmc/gtdmc-post-1.jpg";
-import workotm from "@/assets/social-media-posts/gtdmc/otm-invite.jpg";
-import workjungfrau from "@/assets/social-media-posts/gtdmc/jungfraujoch.jpg";
-import worktitlis from "@/assets/social-media-posts/gtdmc/titlis-post.jpg";
-import workkakslautten from "@/assets/social-media-posts/gtdmc/kakslauttanen.jpg";
-import workminivans from "@/assets/social-media-posts/gtdmc/mini-vans.jpg";
-import workbateaux from "@/assets/social-media-posts/gtdmc/bateaux-parisiens.jpg";
-import workrovaniemi01 from "@/assets/social-media-posts/gtdmc/rovaniemi.jpg";
-import workrovaniemi02 from "@/assets/social-media-posts/gtdmc/rovaniemi-2.jpg";
-import workttf from "@/assets/social-media-posts/gtdmc/ttf-invite.jpg";
-import worksmooth from "@/assets/social-media-posts/gtdmc/smooth-transfers.jpg";
-import workttj from "@/assets/social-media-posts/gtdmc/ttj-invite-1.jpg";
-import workvito from "@/assets/social-media-posts/gtdmc/vito.jpg";
+import socialMediaBigBusToursImg from "@/assets/social-media-posts/gtdmc/big-bus-tours.jpg";
+import socialMediaServicesPostImg from "@/assets/social-media-posts/gtdmc/services-post.jpg";
+import socialMediaSatteInvite2Img from "@/assets/social-media-posts/gtdmc/satte-invite-2.jpg";
+import socialMediaVaticanMuseumImg from "@/assets/social-media-posts/gtdmc/vatican-museum.jpg";
+import socialMediaColosseumImg from "@/assets/social-media-posts/gtdmc/colosseum.jpg";
+import socialMediaOnGroundServiceImg from "@/assets/social-media-posts/gtdmc/on-ground-service.jpg";
+import socialMediaTheArcticRouteImg from "@/assets/social-media-posts/gtdmc/the-arctic-route.jpg";
+import socialMediaCityBreaksImg from "@/assets/social-media-posts/gtdmc/city-breaks.jpg";
+import socialMediaEasternEuropeVanToursImg from "@/assets/social-media-posts/gtdmc/eastern-europe-van-tours.jpg";
+import socialMediaHappyTravelersImg from "@/assets/social-media-posts/gtdmc/happy-travelers.jpg";
+import socialMediaPilatusImg from "@/assets/social-media-posts/gtdmc/pilatus.jpg";
+import socialMediaGtdmcPost1Img from "@/assets/social-media-posts/gtdmc/gtdmc-post-1.jpg";
+import socialMediaOtmInviteImg from "@/assets/social-media-posts/gtdmc/otm-invite.jpg";
+import socialMediaJungfraujochImg from "@/assets/social-media-posts/gtdmc/jungfraujoch.jpg";
+import socialMediaTitlisPostImg from "@/assets/social-media-posts/gtdmc/titlis-post.jpg";
+import socialMediaKakslauttanenImg from "@/assets/social-media-posts/gtdmc/kakslauttanen.jpg";
+import socialMediaMiniVansImg from "@/assets/social-media-posts/gtdmc/mini-vans.jpg";
+import socialMediaBateauxParisiensImg from "@/assets/social-media-posts/gtdmc/bateaux-parisiens.jpg";
+import socialMediaRovaniemiImg from "@/assets/social-media-posts/gtdmc/rovaniemi.jpg";
+import socialMediaRovaniemi2Img from "@/assets/social-media-posts/gtdmc/rovaniemi-2.jpg";
+import socialMediaTtfInviteImg from "@/assets/social-media-posts/gtdmc/ttf-invite.jpg";
+import socialMediaSmoothTransfersImg from "@/assets/social-media-posts/gtdmc/smooth-transfers.jpg";
+import socialMediaTtjInvite1Img from "@/assets/social-media-posts/gtdmc/ttj-invite-1.jpg";
+import socialMediaVitoImg from "@/assets/social-media-posts/gtdmc/vito.jpg";
 
-// --- SOCIAL MEDIA POSTS - NEW ---
-import worktelaster from "@/assets/social-media-posts/new/telaster.jpg";
-import workmp1 from "@/assets/social-media-posts/new/marketingp1.jpg";
-import workmp2 from "@/assets/social-media-posts/new/marketingp2.jpg";
-import worknew01 from "@/assets/social-media-posts/new/alobha.png";
-import worknew02 from "@/assets/social-media-posts/new/arora-dezign.jpg";
-import worknew03 from "@/assets/social-media-posts/new/arora-dezign-01.jpg";
-import worknew04 from "@/assets/social-media-posts/new/beauty-banner.jpg";
-import worknew05 from "@/assets/social-media-posts/new/burger-ad-02.jpg";
-import worknew06 from "@/assets/social-media-posts/new/coffee-mug-01.jpg";
-import worknew07 from "@/assets/social-media-posts/new/combo-offer.jpg";
-import worknew08 from "@/assets/social-media-posts/new/ghee-ad.jpg";
-import worknew09 from "@/assets/social-media-posts/new/hair-transplant-post-01.jpg";
-import worknew10 from "@/assets/social-media-posts/new/hair-transplant-post-02.jpg";
-import worknew11 from "@/assets/social-media-posts/new/honey-ad.jpg";
-import worknew12 from "@/assets/social-media-posts/new/newspaper-ad.jpg";
-import worknew13 from "@/assets/social-media-posts/new/nike-shoes.jpg";
-import worknew14 from "@/assets/social-media-posts/new/toshiba.jpg";
+// --- SOCIAL MEDIA POSTS - SELF WORK---
+import socialMediaTelasterImg from "@/assets/social-media-posts/new/telaster.jpg";
+import socialMediaMarketingP1Img from "@/assets/social-media-posts/new/marketingp1.jpg";
+import socialMediaMarketingP2Img from "@/assets/social-media-posts/new/marketingp2.jpg";
+import socialMediaAlobhaImg from "@/assets/social-media-posts/new/alobha.png";
+import socialMediaAroraDezignImg from "@/assets/social-media-posts/new/arora-dezign.jpg";
+import socialMediaAroraDezign01Img from "@/assets/social-media-posts/new/arora-dezign-01.jpg";
+import socialMediaBeautyBannerImg from "@/assets/social-media-posts/new/beauty-banner.jpg";
+import socialMediaBurgerAd02Img from "@/assets/social-media-posts/new/burger-ad-02.jpg";
+import socialMediaCoffeeMug01Img from "@/assets/social-media-posts/new/coffee-mug-01.jpg";
+import socialMediaComboOfferImg from "@/assets/social-media-posts/new/combo-offer.jpg";
+import socialMediaGheeAdImg from "@/assets/social-media-posts/new/ghee-ad.jpg";
+import socialMediaHairTransplantPost01Img from "@/assets/social-media-posts/new/hair-transplant-post-01.jpg";
+import socialMediaHairTransplantPost02Img from "@/assets/social-media-posts/new/hair-transplant-post-02.jpg";
+import socialMediaHoneyAdImg from "@/assets/social-media-posts/new/honey-ad.jpg";
+import socialMediaNewspaperAdImg from "@/assets/social-media-posts/new/newspaper-ad.jpg";
+import socialMediaNikeShoesImg from "@/assets/social-media-posts/new/nike-shoes.jpg";
+import socialMediaToshibaImg from "@/assets/social-media-posts/new/toshiba.jpg";
 
+// --- SOCIAL MEDIA POSTS - FESTIVE ---
+import festiveChristmasImg from "@/assets/social-media-posts/festival/christmas.jpg";
+import festiveDhanterasImg from "@/assets/social-media-posts/festival/dhanteras.jpg";
+import festiveDiwali02Img from "@/assets/social-media-posts/festival/diwali-02.jpg";
+import festiveDiwaliImg from "@/assets/social-media-posts/festival/diwali.jpg";
+import festiveDussehraImg from "@/assets/social-media-posts/festival/dussehra.jpg";
+import festiveGaneshChaturthiImg from "@/assets/social-media-posts/festival/ganesh-chaturthi.jpg";
+import festiveHoliImg from "@/assets/social-media-posts/festival/holi.jpg";
+import festiveIndependenceDayImg from "@/assets/social-media-posts/festival/independence-day.jpg";
+import festiveMahaAshtamiImg from "@/assets/social-media-posts/festival/maha-ashtami.jpg";
+import festiveMahaAsthmi02Img from "@/assets/social-media-posts/festival/maha-asthmi-02.jpg";
+import festiveMakarSankranti01Img from "@/assets/social-media-posts/festival/makar-sankranti-01.jpg";
+import festiveMakarSankranti02Img from "@/assets/social-media-posts/festival/makar-sankranti-02.jpg";
+import festiveMerryChristmasImg from "@/assets/social-media-posts/festival/merry-christmas.jpg";
+import festiveNewYearImg from "@/assets/social-media-posts/festival/new-year.jpg";
+import festiveRepublicDayImg from "@/assets/social-media-posts/festival/republic-day.jpg";
+import festiveShubhNavratriImg from "@/assets/social-media-posts/festival/shubh-navratri.jpg";
 
 // --- POSTERS & ALBUMS ---
-import postergow from "@/assets/posters-albums/god-of-war.jpg";
-import posterburger from "@/assets/posters-albums/burger-ad-poster.jpg";
-import postermagcover from "@/assets/posters-albums/magazine-cover.jpg";
-import posternightking from "@/assets/posters-albums/the-knight-king.jpg";
-import posteralbum from "@/assets/posters-albums/album-cover.jpg";
+import posterGodOfWarImg from "@/assets/posters-albums/god-of-war.jpg";
+import posterBurgerAdPosterImg from "@/assets/posters-albums/burger-ad-poster.jpg";
+import posterMagazineCoverImg from "@/assets/posters-albums/magazine-cover.jpg";
+import posterTheKnightKingImg from "@/assets/posters-albums/the-knight-king.jpg";
+import posterAlbumCoverImg from "@/assets/posters-albums/album-cover.jpg";
 
 // --- INVITES ---
-import wedding01 from "@/assets/invites/timeless-celebration-01.png";
-import wedding02 from "@/assets/invites/timeless-celebration-02.png";
-import wedding03 from "@/assets/invites/timeless-celebration-03.png";
+import inviteTimelessCelebration01Img from "@/assets/invites/timeless-celebration-01.png";
+import inviteTimelessCelebration02Img from "@/assets/invites/timeless-celebration-02.png";
+import inviteTimelessCelebration03Img from "@/assets/invites/timeless-celebration-03.png";
 
-// --- CAROUSEL (GT DMC SERVICE) ---
-import c1services from "@/assets/carousel/gt-dmc-service/handcrafted-services.jpg";
-import c101 from "@/assets/carousel/gt-dmc-service/city-breaks copy.jpg";
-import c102 from "@/assets/carousel/gt-dmc-service/multi-country-tours.jpg";
-import c103 from "@/assets/carousel/gt-dmc-service/fit-customization.jpg";
-import c104 from "@/assets/carousel/gt-dmc-service/private-disposal-vehicles.jpg";
-import c105 from "@/assets/carousel/gt-dmc-service/hotels-and-stays.jpg";
-import c106 from "@/assets/carousel/gt-dmc-service/mountain-excursions.jpg";
-import c107 from "@/assets/carousel/gt-dmc-service/ad-hoc-groups.jpg";
-import c108 from "@/assets/carousel/gt-dmc-service/sightseeings.jpg";
-import c109 from "@/assets/carousel/gt-dmc-service/rail-passes.jpg";
-import c110 from "@/assets/carousel/gt-dmc-service/contact-page.jpg";
+// --- CAROUSEL (GTDMC SERVICE) ---
+import carouselHandcraftedServicesImg from "@/assets/carousel/gt-dmc-service/handcrafted-services.jpg";
+import carouselCityBreaksCopyImg from "@/assets/carousel/gt-dmc-service/city-breaks copy.jpg";
+import carouselMultiCountryToursImg from "@/assets/carousel/gt-dmc-service/multi-country-tours.jpg";
+import carouselFitCustomizationImg from "@/assets/carousel/gt-dmc-service/fit-customization.jpg";
+import carouselPrivateDisposalVehiclesImg from "@/assets/carousel/gt-dmc-service/private-disposal-vehicles.jpg";
+import carouselHotelsAndStaysImg from "@/assets/carousel/gt-dmc-service/hotels-and-stays.jpg";
+import carouselMountainExcursionsImg from "@/assets/carousel/gt-dmc-service/mountain-excursions.jpg";
+import carouselAdHocGroupsImg from "@/assets/carousel/gt-dmc-service/ad-hoc-groups.jpg";
+import carouselSightseeingsImg from "@/assets/carousel/gt-dmc-service/sightseeings.jpg";
+import carouselRailPassesImg from "@/assets/carousel/gt-dmc-service/rail-passes.jpg";
+import carouselContactPageImg from "@/assets/carousel/gt-dmc-service/contact-page.jpg";
 
-import c2 from "@/assets/carousel/mamaearth/mamaearth-01.jpg";
-import c201 from "@/assets/carousel/mamaearth/mamaearth-02.jpg";
-import c202 from "@/assets/carousel/mamaearth/mamaearth-03.jpg";
-import c203 from "@/assets/carousel/mamaearth/mamaearth-04.jpg";
-import c204 from "@/assets/carousel/mamaearth/mamaearth-05.jpg";
+// --- CAROUSEL (MAMAEARTH) ---
+import carouselMamaearth01Img from "@/assets/carousel/mamaearth/mamaearth-01.jpg";
+import carouselMamaearth02Img from "@/assets/carousel/mamaearth/mamaearth-02.jpg";
+import carouselMamaearth03Img from "@/assets/carousel/mamaearth/mamaearth-03.jpg";
+import carouselMamaearth04Img from "@/assets/carousel/mamaearth/mamaearth-04.jpg";
+import carouselMamaearth05Img from "@/assets/carousel/mamaearth/mamaearth-05.jpg";
 
-// --- MAGAZINE & BROCHURE B26---
-import b1c from "@/assets/magazine-brochure/b26/b1cover.jpg";
-import b01 from "@/assets/magazine-brochure/b26/b01.jpg";
-import b02 from "@/assets/magazine-brochure/b26/b02.jpg";
-import b03 from "@/assets/magazine-brochure/b26/b03.jpg";
-import b04 from "@/assets/magazine-brochure/b26/b04.jpg";
-import b05 from "@/assets/magazine-brochure/b26/b05.jpg";
-import b06 from "@/assets/magazine-brochure/b26/b06.jpg";
-import b07 from "@/assets/magazine-brochure/b26/b07.jpg";
-import b08 from "@/assets/magazine-brochure/b26/b08.jpg";
-import b09 from "@/assets/magazine-brochure/b26/b09.jpg";
-import b10 from "@/assets/magazine-brochure/b26/b10.jpg";
-import b11 from "@/assets/magazine-brochure/b26/b11.jpg";
-import b12 from "@/assets/magazine-brochure/b26/b12.jpg";
-import b13 from "@/assets/magazine-brochure/b26/b13.jpg";
-import b14 from "@/assets/magazine-brochure/b26/b14.jpg";
-import b15 from "@/assets/magazine-brochure/b26/b15.jpg";
-import b16 from "@/assets/magazine-brochure/b26/b16.jpg";
-import b17 from "@/assets/magazine-brochure/b26/b17.jpg";
-import b18 from "@/assets/magazine-brochure/b26/b18.jpg";
-import b19 from "@/assets/magazine-brochure/b26/b19.jpg";
-import b20 from "@/assets/magazine-brochure/b26/b20.jpg";
-import b21 from "@/assets/magazine-brochure/b26/b21.jpg";
-import b22 from "@/assets/magazine-brochure/b26/b22.jpg";
-import b23 from "@/assets/magazine-brochure/b26/b23.jpg";
-import b24 from "@/assets/magazine-brochure/b26/b24.jpg";
-import b25 from "@/assets/magazine-brochure/b26/b25.jpg";
-import b26 from "@/assets/magazine-brochure/b26/b26.jpg";
-import b27 from "@/assets/magazine-brochure/b26/b27.jpg";
-import b28 from "@/assets/magazine-brochure/b26/b28.jpg";
-import b29 from "@/assets/magazine-brochure/b26/b29.jpg";
-import b30 from "@/assets/magazine-brochure/b26/b30.jpg";
-import b31 from "@/assets/magazine-brochure/b26/b31.jpg";
-import b32 from "@/assets/magazine-brochure/b26/b32.jpg";
-import b33 from "@/assets/magazine-brochure/b26/b33.jpg";
-import b34 from "@/assets/magazine-brochure/b26/b34.jpg";
-import b35 from "@/assets/magazine-brochure/b26/b35.jpg";
-import b36 from "@/assets/magazine-brochure/b26/b36.jpg";
-import b37 from "@/assets/magazine-brochure/b26/b37.jpg";
-import b38 from "@/assets/magazine-brochure/b26/b38.jpg";
-import b39 from "@/assets/magazine-brochure/b26/b39.jpg";
-import b40 from "@/assets/magazine-brochure/b26/b40.jpg";
-import b41 from "@/assets/magazine-brochure/b26/b41.jpg";
-import b42 from "@/assets/magazine-brochure/b26/b42.jpg";
-import b43 from "@/assets/magazine-brochure/b26/b43.jpg";
-import b44 from "@/assets/magazine-brochure/b26/b44.jpg";
-import b45 from "@/assets/magazine-brochure/b26/b45.jpg";
-import b46 from "@/assets/magazine-brochure/b26/b46.jpg";
-import b47 from "@/assets/magazine-brochure/b26/b47.jpg";
-import b48 from "@/assets/magazine-brochure/b26/b48.jpg";
-import b49 from "@/assets/magazine-brochure/b26/b49.jpg";
-import b50 from "@/assets/magazine-brochure/b26/b50.jpg";
-import b51 from "@/assets/magazine-brochure/b26/b51.jpg";
+// --- CAROUSEL (COPENHAGEN) ---
+import carouselCopenhagen01Img from "@/assets/carousel/copenhagen/copenhagen-01.jpg";
+import carouselCopenhagen02Img from "@/assets/carousel/copenhagen/copenhagen-02.jpg";
+import carouselCopenhagen03Img from "@/assets/carousel/copenhagen/copenhagen-03.jpg";
+import carouselCopenhagen04Img from "@/assets/carousel/copenhagen/copenhagen-04.jpg";
+import carouselCopenhagen05Img from "@/assets/carousel/copenhagen/copenhagen-05.jpg";
+import carouselCopenhagen06Img from "@/assets/carousel/copenhagen/copenhagen-06.jpg";
+import carouselCopenhagen07Img from "@/assets/carousel/copenhagen/copenhagen-07.jpg";
 
-// --- MAGAZINE & BROCHURE B25---
-import b2501 from "@/assets/magazine-brochure/b25/b25-01.jpg";
-import b2502 from "@/assets/magazine-brochure/b25/b25-02.jpg";
-import b2503 from "@/assets/magazine-brochure/b25/b25-03.jpg";
-import b2504 from "@/assets/magazine-brochure/b25/b25-04.jpg";
-import b2505 from "@/assets/magazine-brochure/b25/b25-05.jpg";
-import b2506 from "@/assets/magazine-brochure/b25/b25-06.jpg";
-import b2507 from "@/assets/magazine-brochure/b25/b25-07.jpg";
-import b2508 from "@/assets/magazine-brochure/b25/b25-08.jpg";
-import b2509 from "@/assets/magazine-brochure/b25/b25-09.jpg";
-import b2510 from "@/assets/magazine-brochure/b25/b25-10.jpg";
-import b2511 from "@/assets/magazine-brochure/b25/b25-11.jpg";
-import b2512 from "@/assets/magazine-brochure/b25/b25-12.jpg";
-import b2513 from "@/assets/magazine-brochure/b25/b25-13.jpg";
-import b2514 from "@/assets/magazine-brochure/b25/b25-14.jpg";
-import b2515 from "@/assets/magazine-brochure/b25/b25-15.jpg";
-import b2516 from "@/assets/magazine-brochure/b25/b25-16.jpg";
-import b2517 from "@/assets/magazine-brochure/b25/b25-17.jpg";
-import b2518 from "@/assets/magazine-brochure/b25/b25-18.jpg";
-import b2519 from "@/assets/magazine-brochure/b25/b25-19.jpg";
-import b2520 from "@/assets/magazine-brochure/b25/b25-20.jpg";
+// --- CAROUSEL (CROATIA) ---
+import carouselCroatia01Img from "@/assets/carousel/croatia/croatia-01.jpg";
+import carouselCroatia02Img from "@/assets/carousel/croatia/croatia-02.jpg";
+import carouselCroatia03Img from "@/assets/carousel/croatia/croatia-03.jpg";
+import carouselCroatia04Img from "@/assets/carousel/croatia/croatia-04.jpg";
+import carouselCroatia05Img from "@/assets/carousel/croatia/croatia-05.jpg";
+import carouselCroatia06Img from "@/assets/carousel/croatia/croatia-06.jpg";
 
-// --- MAGAZINE & BROCHURE CAR---
-import car01 from "@/assets/magazine-brochure/car/car-booklet-01.jpg";
-import car02 from "@/assets/magazine-brochure/car/car-booklet-02.jpg";
-import car03 from "@/assets/magazine-brochure/car/car-booklet-03.jpg";
-import car04 from "@/assets/magazine-brochure/car/car-booklet-04.jpg";
-import car05 from "@/assets/magazine-brochure/car/car-booklet-05.jpg";
-import car06 from "@/assets/magazine-brochure/car/car-booklet-06.jpg";
-import car07 from "@/assets/magazine-brochure/car/car-booklet-07.jpg";
-import car08 from "@/assets/magazine-brochure/car/car-booklet-08.jpg";
-import car09 from "@/assets/magazine-brochure/car/car-booklet-09.jpg";
-import car10 from "@/assets/magazine-brochure/car/car-booklet-10.jpg";
-import car11 from "@/assets/magazine-brochure/car/car-booklet-11.jpg";
-import car12 from "@/assets/magazine-brochure/car/car-booklet-12.jpg";
-import car13 from "@/assets/magazine-brochure/car/car-booklet-13.jpg";
-import car14 from "@/assets/magazine-brochure/car/car-booklet-14.jpg";
+// --- CAROUSEL (KAKSLAUTTANEN) ---
+import carouselKakslauttanen01Img from "@/assets/carousel/kakslauttanen/kakslauttanen-01.jpg";
+import carouselKakslauttanen02Img from "@/assets/carousel/kakslauttanen/kakslauttanen-02.jpg";
+import carouselKakslauttanen03Img from "@/assets/carousel/kakslauttanen/kakslauttanen-03.jpg";
+import carouselKakslauttanen04Img from "@/assets/carousel/kakslauttanen/kakslauttanen-04.jpg";
+import carouselKakslauttanen05Img from "@/assets/carousel/kakslauttanen/kakslauttanen-05.jpg";
+import carouselKakslauttanen06Img from "@/assets/carousel/kakslauttanen/kakslauttanen-06.jpg";
 
-// --- MAGAZINE & BROCHURE PARIS---
-import paris01 from "@/assets/magazine-brochure/paris/paris-rome-01.jpg";
-import paris02 from "@/assets/magazine-brochure/paris/paris-rome-02.jpg";
-import paris03 from "@/assets/magazine-brochure/paris/paris-rome-03.jpg";
-import paris04 from "@/assets/magazine-brochure/paris/paris-rome-04.jpg";
-import paris05 from "@/assets/magazine-brochure/paris/paris-rome-05.jpg";
-import paris06 from "@/assets/magazine-brochure/paris/paris-rome-06.jpg";
-import paris07 from "@/assets/magazine-brochure/paris/paris-rome-07.jpg";
-import paris08 from "@/assets/magazine-brochure/paris/paris-rome-08.jpg";
-import paris09 from "@/assets/magazine-brochure/paris/paris-rome-09.jpg";
-import paris10 from "@/assets/magazine-brochure/paris/paris-rome-10.jpg";
-import paris11 from "@/assets/magazine-brochure/paris/paris-rome-11.jpg";
-import paris12 from "@/assets/magazine-brochure/paris/paris-rome-12.jpg";
-import paris13 from "@/assets/magazine-brochure/paris/paris-rome-13.jpg";
-import paris14 from "@/assets/magazine-brochure/paris/paris-rome-14.jpg";
-import paris15 from "@/assets/magazine-brochure/paris/paris-rome-15.jpg";
+// --- CAROUSEL (LOFOTEN ISLAND) ---
+import carouselLofotenIsland01Img from "@/assets/carousel/lofoten-island/lofoten-island-01.jpg";
+import carouselLofotenIsland02Img from "@/assets/carousel/lofoten-island/lofoten-island-02.jpg";
+import carouselLofotenIsland03Img from "@/assets/carousel/lofoten-island/lofoten-island-03.jpg";
+import carouselLofotenIsland04Img from "@/assets/carousel/lofoten-island/lofoten-island-04.jpg";
+import carouselLofotenIsland05Img from "@/assets/carousel/lofoten-island/lofoten-island-05.jpg";
+import carouselLofotenIsland06Img from "@/assets/carousel/lofoten-island/lofoten-island-06.jpg";
+
+// --- CAROUSEL (NORDIC REGION) ---
+import carouselAlandImg from "@/assets/carousel/nordic-region/aland.jpg";
+import carouselDenmarkImg from "@/assets/carousel/nordic-region/denmark.jpg";
+import carouselFaroeIslandsImg from "@/assets/carousel/nordic-region/faroe-islands.jpg";
+import carouselFinlandImg from "@/assets/carousel/nordic-region/finland.jpg";
+import carouselGreenlandImg from "@/assets/carousel/nordic-region/greenland.jpg";
+import carouselIcelandImg from "@/assets/carousel/nordic-region/iceland.jpg";
+import carouselNordicRegionImg from "@/assets/carousel/nordic-region/nordic-region.jpg";
+import carouselNorwayImg from "@/assets/carousel/nordic-region/norway.jpg";
+import carouselSwedenImg from "@/assets/carousel/nordic-region/sweden.jpg";
+import carouselTheNordicRegionImg from "@/assets/carousel/nordic-region/the-nordic-region.jpg";
+
+// --- CAROUSEL (ROVANIEMI) ---
+import carouselRovaniemi01Img from "@/assets/carousel/rovaniemi/rovaniemi-01.jpg";
+import carouselRovaniemi02Img from "@/assets/carousel/rovaniemi/rovaniemi-02.jpg";
+import carouselRovaniemi03Img from "@/assets/carousel/rovaniemi/rovaniemi-03.jpg";
+import carouselRovaniemi04Img from "@/assets/carousel/rovaniemi/rovaniemi-04.jpg";
+import carouselRovaniemi05Img from "@/assets/carousel/rovaniemi/rovaniemi-05.jpg";
+import carouselRovaniemi06Img from "@/assets/carousel/rovaniemi/rovaniemi-06.jpg";
+import carouselRovaniemi07Img from "@/assets/carousel/rovaniemi/rovaniemi-07.jpg";
+
+// --- CAROUSEL (TROMSO) ---
+import carouselTromso01Img from "@/assets/carousel/tromso/tromso-01.jpg";
+import carouselTromso02Img from "@/assets/carousel/tromso/tromso-02.jpg";
+import carouselTromso03Img from "@/assets/carousel/tromso/tromso-03.jpg";
+import carouselTromso04Img from "@/assets/carousel/tromso/tromso-04.jpg";
+
+// --- MAGAZINE & BROCHURE TRAVEL BROCHURE 2026---
+import magazineB2601CoverImg from "@/assets/magazine-brochure/b26/b1cover.jpg";
+import magazineB2602Img from "@/assets/magazine-brochure/b26/b01.jpg";
+import magazineB2603Img from "@/assets/magazine-brochure/b26/b02.jpg";
+import magazineB2604Img from "@/assets/magazine-brochure/b26/b03.jpg";
+import magazineB2605Img from "@/assets/magazine-brochure/b26/b04.jpg";
+import magazineB2606Img from "@/assets/magazine-brochure/b26/b05.jpg";
+import magazineB2607Img from "@/assets/magazine-brochure/b26/b06.jpg";
+import magazineB2608Img from "@/assets/magazine-brochure/b26/b07.jpg";
+import magazineB2609Img from "@/assets/magazine-brochure/b26/b08.jpg";
+import magazineB2610Img from "@/assets/magazine-brochure/b26/b09.jpg";
+import magazineB2611Img from "@/assets/magazine-brochure/b26/b10.jpg";
+import magazineB2612Img from "@/assets/magazine-brochure/b26/b11.jpg";
+import magazineB2613Img from "@/assets/magazine-brochure/b26/b12.jpg";
+import magazineB2614Img from "@/assets/magazine-brochure/b26/b13.jpg";
+import magazineB2615Img from "@/assets/magazine-brochure/b26/b14.jpg";
+import magazineB2616Img from "@/assets/magazine-brochure/b26/b15.jpg";
+import magazineB2617Img from "@/assets/magazine-brochure/b26/b16.jpg";
+import magazineB2618Img from "@/assets/magazine-brochure/b26/b17.jpg";
+import magazineB2619Img from "@/assets/magazine-brochure/b26/b18.jpg";
+import magazineB2620Img from "@/assets/magazine-brochure/b26/b19.jpg";
+import magazineB2621Img from "@/assets/magazine-brochure/b26/b20.jpg";
+import magazineB2622Img from "@/assets/magazine-brochure/b26/b21.jpg";
+import magazineB2623Img from "@/assets/magazine-brochure/b26/b22.jpg";
+import magazineB2624Img from "@/assets/magazine-brochure/b26/b23.jpg";
+import magazineB2625Img from "@/assets/magazine-brochure/b26/b24.jpg";
+import magazineB2626Img from "@/assets/magazine-brochure/b26/b25.jpg";
+import magazineB2627Img from "@/assets/magazine-brochure/b26/b26.jpg";
+import magazineB2628Img from "@/assets/magazine-brochure/b26/b27.jpg";
+import magazineB2629Img from "@/assets/magazine-brochure/b26/b28.jpg";
+import magazineB2630Img from "@/assets/magazine-brochure/b26/b29.jpg";
+import magazineB2631Img from "@/assets/magazine-brochure/b26/b30.jpg";
+import magazineB2632Img from "@/assets/magazine-brochure/b26/b31.jpg";
+import magazineB2633Img from "@/assets/magazine-brochure/b26/b32.jpg";
+import magazineB2634Img from "@/assets/magazine-brochure/b26/b33.jpg";
+import magazineB2635Img from "@/assets/magazine-brochure/b26/b34.jpg";
+import magazineB2636Img from "@/assets/magazine-brochure/b26/b35.jpg";
+import magazineB2637Img from "@/assets/magazine-brochure/b26/b36.jpg";
+import magazineB2638Img from "@/assets/magazine-brochure/b26/b37.jpg";
+import magazineB2639Img from "@/assets/magazine-brochure/b26/b38.jpg";
+import magazineB2640Img from "@/assets/magazine-brochure/b26/b39.jpg";
+import magazineB2641Img from "@/assets/magazine-brochure/b26/b40.jpg";
+import magazineB2642Img from "@/assets/magazine-brochure/b26/b41.jpg";
+import magazineB2643Img from "@/assets/magazine-brochure/b26/b42.jpg";
+import magazineB2644Img from "@/assets/magazine-brochure/b26/b43.jpg";
+import magazineB2645Img from "@/assets/magazine-brochure/b26/b44.jpg";
+import magazineB2646Img from "@/assets/magazine-brochure/b26/b45.jpg";
+import magazineB2647Img from "@/assets/magazine-brochure/b26/b46.jpg";
+import magazineB2648Img from "@/assets/magazine-brochure/b26/b47.jpg";
+import magazineB2649Img from "@/assets/magazine-brochure/b26/b48.jpg";
+import magazineB2650Img from "@/assets/magazine-brochure/b26/b49.jpg";
+import magazineB2651Img from "@/assets/magazine-brochure/b26/b50.jpg";
+import magazineB2652Img from "@/assets/magazine-brochure/b26/b51.jpg";
+
+// --- MAGAZINE & BROCHURE TRAVEL BROCHURE 2025---
+import magazineB2501Img from "@/assets/magazine-brochure/b25/b25-01.jpg";
+import magazineB2502Img from "@/assets/magazine-brochure/b25/b25-02.jpg";
+import magazineB2503Img from "@/assets/magazine-brochure/b25/b25-03.jpg";
+import magazineB2504Img from "@/assets/magazine-brochure/b25/b25-04.jpg";
+import magazineB2505Img from "@/assets/magazine-brochure/b25/b25-05.jpg";
+import magazineB2506Img from "@/assets/magazine-brochure/b25/b25-06.jpg";
+import magazineB2507Img from "@/assets/magazine-brochure/b25/b25-07.jpg";
+import magazineB2508Img from "@/assets/magazine-brochure/b25/b25-08.jpg";
+import magazineB2509Img from "@/assets/magazine-brochure/b25/b25-09.jpg";
+import magazineB2510Img from "@/assets/magazine-brochure/b25/b25-10.jpg";
+import magazineB2511Img from "@/assets/magazine-brochure/b25/b25-11.jpg";
+import magazineB2512Img from "@/assets/magazine-brochure/b25/b25-12.jpg";
+import magazineB2513Img from "@/assets/magazine-brochure/b25/b25-13.jpg";
+import magazineB2514Img from "@/assets/magazine-brochure/b25/b25-14.jpg";
+import magazineB2515Img from "@/assets/magazine-brochure/b25/b25-15.jpg";
+import magazineB2516Img from "@/assets/magazine-brochure/b25/b25-16.jpg";
+import magazineB2517Img from "@/assets/magazine-brochure/b25/b25-17.jpg";
+import magazineB2518Img from "@/assets/magazine-brochure/b25/b25-18.jpg";
+import magazineB2519Img from "@/assets/magazine-brochure/b25/b25-19.jpg";
+import magazineB2520Img from "@/assets/magazine-brochure/b25/b25-20.jpg";
+
+// --- MAGAZINE & BROCHURE CAR BOOKLET---
+import magazineCarBooklet01Img from "@/assets/magazine-brochure/car/car-booklet-01.jpg";
+import magazineCarBooklet02Img from "@/assets/magazine-brochure/car/car-booklet-02.jpg";
+import magazineCarBooklet03Img from "@/assets/magazine-brochure/car/car-booklet-03.jpg";
+import magazineCarBooklet04Img from "@/assets/magazine-brochure/car/car-booklet-04.jpg";
+import magazineCarBooklet05Img from "@/assets/magazine-brochure/car/car-booklet-05.jpg";
+import magazineCarBooklet06Img from "@/assets/magazine-brochure/car/car-booklet-06.jpg";
+import magazineCarBooklet07Img from "@/assets/magazine-brochure/car/car-booklet-07.jpg";
+import magazineCarBooklet08Img from "@/assets/magazine-brochure/car/car-booklet-08.jpg";
+import magazineCarBooklet09Img from "@/assets/magazine-brochure/car/car-booklet-09.jpg";
+import magazineCarBooklet10Img from "@/assets/magazine-brochure/car/car-booklet-10.jpg";
+import magazineCarBooklet11Img from "@/assets/magazine-brochure/car/car-booklet-11.jpg";
+import magazineCarBooklet12Img from "@/assets/magazine-brochure/car/car-booklet-12.jpg";
+import magazineCarBooklet13Img from "@/assets/magazine-brochure/car/car-booklet-13.jpg";
+import magazineCarBooklet14Img from "@/assets/magazine-brochure/car/car-booklet-14.jpg";
+
+// --- MAGAZINE & BROCHURE PARIS TO ROME BOOK---
+import magazineParisRome01Img from "@/assets/magazine-brochure/paris/paris-rome-01.jpg";
+import magazineParisRome02Img from "@/assets/magazine-brochure/paris/paris-rome-02.jpg";
+import magazineParisRome03Img from "@/assets/magazine-brochure/paris/paris-rome-03.jpg";
+import magazineParisRome04Img from "@/assets/magazine-brochure/paris/paris-rome-04.jpg";
+import magazineParisRome05Img from "@/assets/magazine-brochure/paris/paris-rome-05.jpg";
+import magazineParisRome06Img from "@/assets/magazine-brochure/paris/paris-rome-06.jpg";
+import magazineParisRome07Img from "@/assets/magazine-brochure/paris/paris-rome-07.jpg";
+import magazineParisRome08Img from "@/assets/magazine-brochure/paris/paris-rome-08.jpg";
+import magazineParisRome09Img from "@/assets/magazine-brochure/paris/paris-rome-09.jpg";
+import magazineParisRome10Img from "@/assets/magazine-brochure/paris/paris-rome-10.jpg";
+import magazineParisRome11Img from "@/assets/magazine-brochure/paris/paris-rome-11.jpg";
+import magazineParisRome12Img from "@/assets/magazine-brochure/paris/paris-rome-12.jpg";
+import magazineParisRome13Img from "@/assets/magazine-brochure/paris/paris-rome-13.jpg";
+import magazineParisRome14Img from "@/assets/magazine-brochure/paris/paris-rome-14.jpg";
+import magazineParisRome15Img from "@/assets/magazine-brochure/paris/paris-rome-15.jpg";
 
 // --- LOGOS ---
-import logosmc1 from "@/assets/logo/smc-club/smc-club-white.jpg";
-import logosmc2 from "@/assets/logo/smc-club/smc-club.jpg";
-import logosmc3 from "@/assets/logo/smc-club/smc-favicon-b.jpg";
-import logosmc4 from "@/assets/logo/smc-club/smc-favicon-w.jpg";
-import logogtdmc1 from "@/assets/logo/global-tdmc/global-tdmc-white.jpg";
-import logogtdmc2 from "@/assets/logo/global-tdmc/global-tdmc-black.jpg";
-import logogtdmc3 from "@/assets/logo/global-tdmc/global-tdmc-blue.jpg";
-import logogtdmc4 from "@/assets/logo/global-tdmc/favicon-white.jpg";
-import logogtdmc5 from "@/assets/logo/global-tdmc/favicon-black.jpg";
-import logorefill from "@/assets/logo/refill-box.jpg";
-import logonovelty1 from "@/assets/logo/novelty-flowers/novelty-flowers-v1.jpg";
-import logonovelty2 from "@/assets/logo/novelty-flowers/novelty-flowers-v1w.jpg";
-import logonovelty3 from "@/assets/logo/novelty-flowers/novelty-flowers-v2w.jpg";
-import logonovelty4 from "@/assets/logo/novelty-flowers/novelty-flowers-v2-green.jpg";
-import logoallinone from "@/assets/logo/all-in-one.jpg";
-import logoblueeyes from "@/assets/logo/blue-eyes.jpg";
-import logonovanest from "@/assets/logo/novelty-flowers/novanest.jpg";
+import logoSmcClubWhiteImg from "@/assets/logo/smc-club/smc-club-white.jpg";
+import logoSmcClubImg from "@/assets/logo/smc-club/smc-club.jpg";
+import logoSmcFaviconBImg from "@/assets/logo/smc-club/smc-favicon-b.jpg";
+import logoSmcFaviconWImg from "@/assets/logo/smc-club/smc-favicon-w.jpg";
+
+import logoGlobalTdmcWhiteImg from "@/assets/logo/global-tdmc/global-tdmc-white.jpg";
+import logoGlobalTdmcBlackImg from "@/assets/logo/global-tdmc/global-tdmc-black.jpg";
+import logoGlobalTdmcBlueImg from "@/assets/logo/global-tdmc/global-tdmc-blue.jpg";
+import logoGlobalTdmcFaviconWhiteImg from "@/assets/logo/global-tdmc/favicon-white.jpg";
+import logoGlobalTdmcFaviconBlackImg from "@/assets/logo/global-tdmc/favicon-black.jpg";
+
+import logoRefillBoxImg from "@/assets/logo/refill-box.jpg";
+
+import logoNoveltyFlowersV1Img from "@/assets/logo/novelty-flowers/novelty-flowers-v1.jpg";
+import logoNoveltyFlowersV1wImg from "@/assets/logo/novelty-flowers/novelty-flowers-v1w.jpg";
+import logoNoveltyFlowersV2wImg from "@/assets/logo/novelty-flowers/novelty-flowers-v2w.jpg";
+import logoNoveltyFlowersV2GreenImg from "@/assets/logo/novelty-flowers/novelty-flowers-v2-green.jpg";
+
+import logoAllInOneImg from "@/assets/logo/all-in-one.jpg";
+import logoBlueEyesImg from "@/assets/logo/blue-eyes.jpg";
+import logoNovanestImg from "@/assets/logo/novelty-flowers/novanest.jpg";
 
 // --- UX/UI ---
-import uxtoa01 from "@/assets/ux/the-one-awards/the-one-awards.jpg";
-import uxtoa02 from "@/assets/ux/the-one-awards/the-one-awards-01.jpg";
-import uxtoa03 from "@/assets/ux/the-one-awards/the-one-awards-02.jpg";
-import uxtoa04 from "@/assets/ux/the-one-awards/the-one-awards-03.jpg";
-import uxnr from "@/assets/ux/nft-rizz/nft-rizz.jpg";
-import uxnr01 from "@/assets/ux/nft-rizz/nft-rizz-01.jpg";
-import uxnr02 from "@/assets/ux/nft-rizz/nft-rizz-02.jpg";
-import uxnr03 from "@/assets/ux/nft-rizz/nft-rizz-03.jpg";
-import uxnr04 from "@/assets/ux/nft-rizz/nft-rizz-05.jpg";
+import uxTheOneAwardsImg from "@/assets/ux/the-one-awards/the-one-awards.jpg";
+import uxTheOneAwards01Img from "@/assets/ux/the-one-awards/the-one-awards-01.jpg";
+import uxTheOneAwards02Img from "@/assets/ux/the-one-awards/the-one-awards-02.jpg";
+import uxTheOneAwards03Img from "@/assets/ux/the-one-awards/the-one-awards-03.jpg";
+
+import uxNftRizzImg from "@/assets/ux/nft-rizz/nft-rizz.jpg";
+import uxNftRizz01Img from "@/assets/ux/nft-rizz/nft-rizz-01.jpg";
+import uxNftRizz02Img from "@/assets/ux/nft-rizz/nft-rizz-02.jpg";
+import uxNftRizz03Img from "@/assets/ux/nft-rizz/nft-rizz-03.jpg";
+import uxNftRizz05Img from "@/assets/ux/nft-rizz/nft-rizz-05.jpg";
 
 // --- UX/UI/SPINNLY ---
-import uxsw01 from "@/assets/ux/spinnly-wash/spinnly-cover.jpg";
-import uxsw02 from "@/assets/ux/spinnly-wash/home.jpg";
-import uxsw03 from "@/assets/ux/spinnly-wash/splash03.jpg";
-import uxsw04 from "@/assets/ux/spinnly-wash/subsciption.jpg";
-import uxsw05 from "@/assets/ux/spinnly-wash/home02.jpg";
+import uxSpinnlyCoverImg from "@/assets/ux/spinnly-wash/spinnly-cover.jpg";
+import uxSpinnlyHomeImg from "@/assets/ux/spinnly-wash/home.jpg";
+import uxSpinnlySplash03Img from "@/assets/ux/spinnly-wash/splash03.jpg";
+import uxSpinnlySubscriptionImg from "@/assets/ux/spinnly-wash/subsciption.jpg";
+import uxSpinnlyHome02Img from "@/assets/ux/spinnly-wash/home02.jpg";
 
 // --- BRANDING ---
-import brandc01 from "@/assets/branding-packaging/branding/credit-card/credit-card-01.jpg";
-import brandc02 from "@/assets/branding-packaging/branding/credit-card/credit-card-02.jpg";
-import brandc03 from "@/assets/branding-packaging/branding/credit-card/mobile-mockups-01.jpg";
-import brandc04 from "@/assets/branding-packaging/branding/credit-card/mobile-mockups-02.jpg";
+import brandingCreditCard01Img from "@/assets/branding-packaging/branding/credit-card/credit-card-01.jpg";
+import brandingCreditCard02Img from "@/assets/branding-packaging/branding/credit-card/credit-card-02.jpg";
+import brandingMobileMockups01Img from "@/assets/branding-packaging/branding/credit-card/mobile-mockups-01.jpg";
+import brandingMobileMockups02Img from "@/assets/branding-packaging/branding/credit-card/mobile-mockups-02.jpg";
 
 
 export interface WorkItem {
@@ -245,474 +328,815 @@ export interface WorkItem {
 
 // ✅ Easy to maintain — just add/remove items from this array
 export const works: WorkItem[] = [
+  // ==========================================
+  // 1. UX DESIGN & WEB DEVELOPMENT
+  // ==========================================
   {
     id: "1",
-    title: "Hand-crafted Services",
-    description: "Bold abstract geometric compositions exploring neon green and black contrasts for a tech startup campaign.",
-    image: c1services,
-    images: [c101, c102, c103, c104, c105, c106, c107, c108, c109, c110],
-    category: "Carousel Design",
+    title: "The One Awards - Website Landing Page",
+    description: "Clean, user-centric interface design focused on seamless navigation, strong visual hierarchy, and an engaging digital experience.",
+    image: uxTheOneAwardsImg,
+    images: [
+      uxTheOneAwards01Img, 
+      uxTheOneAwards02Img, 
+      uxTheOneAwards03Img
+    ],
+    category: "UX Design",
   },
   {
     id: "2",
-    title: "Big Bus Tours",
-    description: "Complete brand identity including business cards, letterheads, and brand guidelines for a premium real estate firm.",
-    image: workbigbus,
-    category: "Social Media Creatives",
-    // link: "https://www.behance.net/kushagraarora3",
-    link: "https://delicate-salesman-ef8.notion.site/28d6f2ef586f8075970bc1960ce3d36b?embed=true"
+    title: "NFT Rizz - Website Landing Page",
+    description: "Modern web interface designed for the Web3 space, prioritizing an intuitive user journey and bold aesthetics.",
+    image: uxNftRizzImg,
+    images: [
+      uxNftRizz01Img, 
+      uxNftRizz02Img, 
+      uxNftRizz03Img, 
+      uxNftRizz05Img
+    ],
+    category: "UX Design",
   },
   {
     id: "3",
-    title: "The Artic",
-    description: "Product packaging and photography direction for a high-end skincare line. Dark, moody, editorial aesthetic.",
-    image: workartic,
-    category: "Social Media Creatives",
+    title: "Spinnly Wash Platform",
+    description: "Comprehensive UX/UI design for a digital platform, ensuring a frictionless user experience from start to finish.",
+    image: uxSpinnlyCoverImg,
+    images: [
+      uxSpinnlyHomeImg, 
+      uxSpinnlySplash03Img, 
+      uxSpinnlySubscriptionImg, 
+      uxSpinnlyHome02Img
+    ],
+    category: "UX Design",
+    link: "https://www.behance.net/kushagraarora3",
   },
-  {
-    id: "4",
-    title: "Bateaux",
-    description: "Digital art series exploring fluid color gradients and organic forms for a music festival visual identity.",
-    image: workbateaux,
-    category: "Social Media Creatives",
-  },
+
+  // ==========================================
+  // 2. SOCIAL MEDIA CREATIVES
+  // ==========================================
   {
     id: "5",
-    title: "On Ground Services",
-    description: "Full dashboard interface design for a SaaS analytics platform. Dark mode first, data-rich, clean hierarchy.",
-    image: workonground,
+    title: "Big Bus Tours",
+    description: "Dynamic digital creative designed to inspire travel and highlight premium tourism experiences.",
+    image: socialMediaBigBusToursImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    link: "https://delicate-salesman-ef8.notion.site/28d6f2ef586f8075970bc1960ce3d36b?embed=true"
   },
   {
     id: "6",
-    title: "Satte Invite",
-    description: "Full dashboard interface design for a SaaS analytics platform. Dark mode first, data-rich, clean hierarchy.",
-    image: worksatte,
+    title: "The Arctic Route",
+    description: "Immersive social media graphic showcasing stunning destination visuals to drive audience engagement.",
+    image: socialMediaTheArcticRouteImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "7",
-    title: "Colosseum",
-    description: "Full dashboard interface design for a SaaS analytics platform. Dark mode first, data-rich, clean hierarchy.",
-    image: workcolosseum,
+    title: "Bateaux Parisiens",
+    description: "Elegant social media visual promoting luxury river cruising and atmospheric travel experiences.",
+    image: socialMediaBateauxParisiensImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "8",
-    title: "Vatican Mesuem",
-    description: "Full dashboard interface design for a SaaS analytics platform. Dark mode first, data-rich, clean hierarchy.",
-    image: workvatican,
+    title: "On Ground Services",
+    description: "Targeted digital marketing asset focused on communicating clear, value-driven service offerings.",
+    image: socialMediaOnGroundServiceImg,
     category: "Social Media Creatives",
     link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "9",
-    title: "Services Post",
-    description: "Full dashboard interface design for a SaaS analytics platform. Dark mode first, data-rich, clean hierarchy.",
-    image: workservices,
+    title: "Satte Invite",
+    description: "Professional event invitation graphic designed for industry conferences and B2B engagement.",
+    image: socialMediaSatteInvite2Img,
     category: "Social Media Creatives",
     link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "10",
-    title: "Satte Invite",
-    description: "Full dashboard interface design for a SaaS analytics platform. Dark mode first, data-rich, clean hierarchy.",
-    image: worksatte,
+    title: "Colosseum Tour Promo",
+    description: "Captivating promotional visual designed to boost tourism awareness for historic European destinations.",
+    image: socialMediaColosseumImg,
     category: "Social Media Creatives",
     link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "11",
-    title: "Explore Rovaniemi",
-    description: "Full dashboard interface design for a SaaS analytics platform. Dark mode first, data-rich, clean hierarchy.",
-    image: workrovaniemi01,
+    title: "Vatican Museum",
+    description: "Engaging social media post highlighting cultural heritage and premium guided tours.",
+    image: socialMediaVaticanMuseumImg,
     category: "Social Media Creatives",
     link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "12",
-    title: "Rovaniemi 02",
-    description: "Full dashboard interface design for a SaaS analytics platform. Dark mode first, data-rich, clean hierarchy.",
-    image: workrovaniemi02,
+    title: "Core Services Highlight",
+    description: "Clean and informative social media creative detailing core business services and value propositions.",
+    image: socialMediaServicesPostImg,
     category: "Social Media Creatives",
     link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "13",
-    title: "Kakslautten Artic Resort",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workkakslautten,
+    title: "Explore Rovaniemi",
+    description: "Winter tourism campaign graphic capturing the magical essence of Lapland getaways.",
+    image: socialMediaRovaniemiImg,
     category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "14",
-    title: "Jungfrau",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workjungfrau,
+    title: "Rovaniemi Travel Promo",
+    description: "Secondary campaign asset driving bookings for exclusive Arctic winter experiences.",
+    image: socialMediaRovaniemi2Img,
     category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "15",
-    title: "Mt. Titlis",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worktitlis,
+    title: "Kakslauttanen Arctic Resort",
+    description: "Visually striking post promoting unique glass igloo stays and Northern Lights tourism.",
+    image: socialMediaKakslauttanenImg,
     category: "Social Media Creatives",
   },
   {
     id: "16",
-    title: "Happy Travelers",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workhappytravelers,
+    title: "Jungfraujoch Peak",
+    description: "Breathtaking mountain excursion promotional graphic tailored for adventure seekers.",
+    image: socialMediaJungfraujochImg,
     category: "Social Media Creatives",
-  },
-   {
-    id: "17",
-    title: "Pilatus",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workpilatus,
-    category: "Social Media Creatives",
-  },
-   {
-    id: "18",
-    title: "Eastern Europe",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workeastern,
-    category: "Social Media Creatives",
-  },
-   {
-    id: "19",
-    title: "MiniVans",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workminivans,
-    category: "Social Media Creatives",
-  },
-   {
-    id: "20",
-    title: "TTJ invite",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workttj,
-    category: "Social Media Creatives",
-  },
-   {
-    id: "21",
-    title: "Smooth Transfers",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worksmooth,
-    category: "Social Media Creatives",
-  },
-   {
-    id: "22",
-    title: "TTF Invite",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workttf,
-    category: "Social Media Creatives",
-  },
-   {
-    id: "26",
-    title: "Otm Invite",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workotm,
-    category: "Social Media Creatives",
-  },
-   {
-    id: "27",
-    title: "Travel Magazine 2k26",
-    description: "Bold abstract geometric compositions exploring neon green and black contrasts for a tech startup campaign.",
-    image: b1c,
-    images: [b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51],
-    category: "Magazine & Brochure Design",
   },
   {
-    id: "27a",
-    title: "Travel Magazine 2k25",
-    description: "Bold abstract geometric compositions exploring neon green and black contrasts for a tech startup campaign.",
-    image: b2501,
-    images: [b2502, b2503, b2504, b2505, b2506, b2507, b2508, b2509, b2510, b2511, b2512, b2513, b2514, b2515, b2516, b2517, b2518, b2519, b2520],
-    category: "Magazine & Brochure Design",
+    id: "17",
+    title: "Mt. Titlis Excursion",
+    description: "High-impact social media creative showcasing alpine attractions and travel packages.",
+    image: socialMediaTitlisPostImg,
+    category: "Social Media Creatives",
   },
-   {
+  {
+    id: "18",
+    title: "Happy Travelers Spotlight",
+    description: "Lifestyle-focused social media post building brand trust through customer satisfaction visuals.",
+    image: socialMediaHappyTravelersImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "19",
+    title: "Mount Pilatus",
+    description: "Engaging destination marketing graphic for Mount Pilatus excursions.",
+    image: socialMediaPilatusImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "20",
+    title: "Eastern Europe Tours",
+    description: "Multi-destination travel campaign visual promoting Eastern European cultural tours.",
+    image: socialMediaEasternEuropeVanToursImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "21",
+    title: "Premium MiniVans",
+    description: "Service-oriented social media post highlighting a premium fleet and transport solutions.",
+    image: socialMediaMiniVansImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "22",
+    title: "TTJ Event Invite",
+    description: "Corporate invitation graphic tailored for travel trade professionals and networking events.",
+    image: socialMediaTtjInvite1Img,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "23",
+    title: "Smooth Transfers",
+    description: "Clean, logistics-focused creative promoting seamless ground transportation services.",
+    image: socialMediaSmoothTransfersImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "24",
+    title: "TTF Exhibition Invite",
+    description: "Professional exhibition invite designed to maximize booth footfall at the Travel & Tourism Fair.",
+    image: socialMediaTtfInviteImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "25",
+    title: "OTM Expo Invite",
+    description: "Strategic B2B marketing graphic for the Outbound Travel Mart.",
+    image: socialMediaOtmInviteImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "26",
+    title: "Marketing Campaign Post",
+    description: "Versatile marketing asset designed to boost brand visibility and digital engagement.",
+    image: socialMediaMarketingP1Img,
+    images: [socialMediaMarketingP2Img],
+    category: "Social Media Creatives",
+  },
+  {
+    id: "27",
+    title: "Telaster Feature",
+    description: "Brand-focused social media creative highlighting product features and modern aesthetics.",
+    image: socialMediaTelasterImg,
+    category: "Social Media Creatives",
+  },
+  {
     id: "28",
-    title: "God of War Poster",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: postergow,
-    category: "Posters & Covers",
+    title: "Tech Solutions Showcase",
+    description: "Sleek and futuristic promotional graphic tailored for technology-driven services.",
+    image: socialMediaAlobhaImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "29",
-    title: "The Night King Poster",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: posternightking,
-    category: "Posters & Covers",
+    title: "Arora Dezigns Profile",
+    description: "Self-promotional studio graphic showcasing brand identity and creative capabilities.",
+    image: socialMediaAroraDezignImg,
+    images: [socialMediaAroraDezign01Img],
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "30",
-    title: "Magazine Cover",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: postermagcover,
-    category: "Posters & Covers",
+    title: "Beauty Banner Ad",
+    description: "Vibrant and aesthetic social media creative driving user acquisition for beauty services.",
+    image: socialMediaBeautyBannerImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "31",
-    title: "Music Album Cover",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: posteralbum,
-    category: "Posters & Covers",
+    title: "Burger Advertisement",
+    description: "Appetizing food marketing post designed to maximize visual appeal and drive conversions.",
+    image: socialMediaBurgerAd02Img,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "32",
-    title: "Burger Ad Poster",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: posterburger,
-    category: "Posters & Covers",
+    title: "Coffee Lifestyle Post",
+    description: "Clean and warm lifestyle graphic for product marketing and brand storytelling.",
+    image: socialMediaCoffeeMug01Img,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-    {
+  {
     id: "33",
-    title: "Global Travel DMC",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: logogtdmc1,
-    images: [logogtdmc2, logogtdmc3, logogtdmc4, logogtdmc5],
-    category: "Logo Design & Branding",
+    title: "Combo Offer Promotion",
+    description: "Sales-driven promotional graphic highlighting special deals to maximize consumer interest.",
+    image: socialMediaComboOfferImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "34",
-    title: "Novelty Flowers",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: logonovelty1,
-    images: [logonovelty2, logonovelty3, logonovelty4],
-    category: "Logo Design & Branding",
+    title: "Organic Ghee Highlight",
+    description: "Premium product showcase highlighting organic qualities and traditional branding.",
+    image: socialMediaGheeAdImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "35",
-    title: "SMC Club",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: logosmc1,
-    images: [logosmc2, logosmc3, logosmc4],
-    category: "Logo Design & Branding",
+    title: "Hair Transplant Clinic Promo",
+    description: "Trust-building medical marketing graphic focused on cosmetic procedures.",
+    image: socialMediaHairTransplantPost01Img,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "36",
-    title: "All in One",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: logoallinone,
-    category: "Logo Design & Branding",
+    title: "Hair Clinic Testimonial",
+    description: "Secondary campaign graphic emphasizing patient results and professional care.",
+    image: socialMediaHairTransplantPost02Img,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "37",
-    title: "Refill Box",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: logorefill,
-    category: "Logo Design & Branding",
+    title: "Natural Honey Showcase",
+    description: "Nature-inspired product promotional post emphasizing purity and health benefits.",
+    image: socialMediaHoneyAdImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "38",
-    title: "Blue Eyes",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: logoblueeyes,
-    category: "Logo Design & Branding",
+    title: "Newspaper Advertisement",
+    description: "Classic print-style digital asset formulated for broad audience reach.",
+    image: socialMediaNewspaperAdImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "39",
-    title: "Nova Nest",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: logonovanest,
-    category: "Logo Design & Branding",
+    title: "Nike Footwear Concept",
+    description: "High-energy athletic product showcase focused on street style and performance.",
+    image: socialMediaNikeShoesImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "40",
-    title: "The One Awards - Website Landing Page",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: uxtoa01,
-    images: [uxtoa02, uxtoa03, uxtoa04],
-    category: "UX Design",
+    title: "Toshiba Tech Display",
+    description: "Clean, technical product graphic highlighting electronic reliability and modern design.",
+    image: socialMediaToshibaImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "41",
-    title: "NFT Rizz - Website Landing Page",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: uxnr,
-    images: [uxnr01, uxnr02, uxnr03, uxnr04],
-    category: "UX Design",
+    title: "Mercedes Vito Transfers",
+    description: "Luxury transport promotional visual highlighting premium travel comfort.",
+    image: socialMediaVitoImg,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "42",
-    title: "Mamaearth Facewash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: c2,
-    images: [c201, c202, c203, c204],
-    category: "Carousel Design",
+    title: "GTDMC Brand Feature",
+    description: "Corporate profile post establishing industry authority and travel expertise.",
+    image: socialMediaGtdmcPost1Img,
+    category: "Social Media Creatives",
+    link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "43",
-    title: "Credit Card Design",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: brandc01,
-    images: [brandc02, brandc03, brandc04],
-    category: "Branding & Packaging Design",
-  },
-   {
-    id: "44",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: uxsw01,
-    images: [uxsw02, uxsw03, uxsw04, uxsw05],
-    category: "UX Design",
+    title: "City Breaks Travel Post",
+    description: "Inspiring travel creative focused on short weekend getaways and urban exploration.",
+    image: socialMediaCityBreaksImg,
+    category: "Social Media Creatives",
     link: "https://www.behance.net/kushagraarora3",
+  },
+
+  // ==========================================
+  // 3. LOGO DESIGN & BRANDING
+  // ==========================================
+  {
+    id: "44",
+    title: "Global Travel DMC",
+    description: "Comprehensive brand identity and logo design establishing a strong, trustworthy visual presence.",
+    image: logoGlobalTdmcWhiteImg,
+    images: [
+      logoGlobalTdmcBlackImg, 
+      logoGlobalTdmcBlueImg, 
+      logoGlobalTdmcFaviconWhiteImg, 
+      logoGlobalTdmcFaviconBlackImg
+    ],
+    category: "Logo Design",
   },
   {
     id: "45",
-    title: "Timeless Celebration",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: wedding01,
-    images: [wedding02, wedding03],
-    category: "Printables & More",
+    title: "Novelty Flowers",
+    description: "Elegant logo design and brand identity crafted to reflect premium quality and aesthetic appeal.",
+    image: logoNoveltyFlowersV1Img,
+    images: [
+      logoNoveltyFlowersV1wImg, 
+      logoNoveltyFlowersV2wImg, 
+      logoNoveltyFlowersV2GreenImg
+    ],
+    category: "Logo Design",
   },
-   {
+  {
     id: "46",
-    title: "Marketing Post",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: workmp1,
-    images: [workmp2],
-    category: "Social Media Creatives",
+    title: "SMC Club",
+    description: "Modern, versatile logo design creating a recognizable mark for club branding.",
+    image: logoSmcClubWhiteImg,
+    images: [
+      logoSmcClubImg, 
+      logoSmcFaviconBImg, 
+      logoSmcFaviconWImg
+    ],
+    category: "Logo Design",
   },
-   {
+  {
     id: "47",
-    title: "Telaster",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worktelaster,
-    category: "Social Media Creatives",
+    title: "All in One",
+    description: "Clean and scalable logo design providing a unified brand identity.",
+    image: logoAllInOneImg,
+    category: "Logo Design",
   },
-   {
+  {
     id: "48",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: uxsw01,
-    category: "Web Development",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Refill Box",
+    description: "Eco-friendly inspired logo design focusing on sustainability and simplicity.",
+    image: logoRefillBoxImg,
+    category: "Logo Design",
   },
-    {
+  {
     id: "49",
-    title: "Tech",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew01,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Blue Eyes",
+    description: "Striking visual identity and logo mark tailored for brand memorability.",
+    image: logoBlueEyesImg,
+    category: "Logo Design",
   },
   {
     id: "50",
-    title: "Arora Dezigns",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew02,
-    images: [worknew03],
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Nova Nest",
+    description: "Warm, inviting brand identity perfectly suited for the home and lifestyle sector.",
+    image: logoNovanestImg,
+    category: "Logo Design",
   },
   {
     id: "51",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew04,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Premium Credit Card Branding",
+    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
+    image: brandingCreditCard01Img,
+    images: [
+      brandingCreditCard02Img, 
+      brandingMobileMockups01Img, 
+      brandingMobileMockups02Img
+    ],
+    category: "Branding & Packaging Design",
   },
+
+  // ==========================================
+  // 4. CAROUSEL DESIGN
+  // ==========================================
   {
     id: "52",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew05,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Hand-crafted Travel Services",
+    description: "Engaging carousel design exploring bold abstract geometric compositions and deep contrasts.",
+    image: carouselHandcraftedServicesImg,
+    images: [
+      carouselCityBreaksCopyImg, 
+      carouselMultiCountryToursImg, 
+      carouselFitCustomizationImg, 
+      carouselPrivateDisposalVehiclesImg, 
+      carouselHotelsAndStaysImg, 
+      carouselMountainExcursionsImg, 
+      carouselAdHocGroupsImg, 
+      carouselSightseeingsImg, 
+      carouselRailPassesImg, 
+      carouselContactPageImg
+    ],
+    category: "Carousel Design",
   },
   {
     id: "53",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew06,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Mamaearth Facewash Features",
+    description: "Clean, fresh, and product-focused carousel design highlighting key skincare benefits and brand aesthetics.",
+    image: carouselMamaearth01Img,
+    images: [
+      carouselMamaearth02Img, 
+      carouselMamaearth03Img, 
+      carouselMamaearth04Img, 
+      carouselMamaearth05Img
+    ],
+    category: "Carousel Design",
   },
-    {
+  {
     id: "54",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew07,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Copenhagen City Break",
+    description: "Engaging social media carousel showcasing the vibrant architecture and travel experiences of Copenhagen.",
+    image: carouselCopenhagen01Img,
+    images: [
+      carouselCopenhagen02Img, 
+      carouselCopenhagen03Img, 
+      carouselCopenhagen04Img, 
+      carouselCopenhagen05Img, 
+      carouselCopenhagen06Img, 
+      carouselCopenhagen07Img
+    ],
+    category: "Carousel Design",
   },
-    {
+  {
     id: "55",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew08,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Croatia Travel Highlights",
+    description: "Immersive carousel design highlighting the stunning coastlines and historic cities of Croatia.",
+    image: carouselCroatia01Img,
+    images: [
+      carouselCroatia02Img, 
+      carouselCroatia03Img, 
+      carouselCroatia04Img, 
+      carouselCroatia05Img, 
+      carouselCroatia06Img
+    ],
+    category: "Carousel Design",
   },
-    {
+  {
     id: "56",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew09,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Kakslauttanen Arctic Resort",
+    description: "Engaging digital carousel crafted to highlight premium winter stays and Arctic adventures.",
+    image: carouselKakslauttanen01Img,
+    images: [
+      carouselKakslauttanen02Img, 
+      carouselKakslauttanen03Img, 
+      carouselKakslauttanen04Img, 
+      carouselKakslauttanen05Img, 
+      carouselKakslauttanen06Img
+    ],
+    category: "Carousel Design",
   },
-    {
+  {
     id: "57",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew10,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Discover Lofoten Islands",
+    description: "Visually striking social media carousel driving engagement for breathtaking Nordic travel destinations.",
+    image: carouselLofotenIsland01Img,
+    images: [
+      carouselLofotenIsland02Img, 
+      carouselLofotenIsland03Img, 
+      carouselLofotenIsland04Img, 
+      carouselLofotenIsland05Img, 
+      carouselLofotenIsland06Img
+    ],
+    category: "Carousel Design",
   },
-    {
+  {
     id: "58",
-    title: "Spinnly Wash",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew11,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "The Nordic Region Journey",
+    description: "Comprehensive multi-slide informative carousel designed to guide travelers through various Nordic countries.",
+    image: carouselTheNordicRegionImg,
+    images: [
+      carouselFinlandImg,
+      carouselDenmarkImg,
+      carouselNorwayImg,
+      carouselSwedenImg,
+      carouselIcelandImg,
+      carouselGreenlandImg,
+      carouselFaroeIslandsImg,
+      carouselAlandImg,
+      carouselNordicRegionImg
+    ],
+    category: "Carousel Design",
   },
-    {
+  {
+    id: "59",
+    title: "Rovaniemi Winter Escapes",
+    description: "Dynamic and compelling visual narrative highlighting the magic of Rovaniemi for tourism campaigns.",
+    image: carouselRovaniemi01Img,
+    images: [
+      carouselRovaniemi02Img, 
+      carouselRovaniemi03Img, 
+      carouselRovaniemi04Img, 
+      carouselRovaniemi05Img, 
+      carouselRovaniemi06Img, 
+      carouselRovaniemi07Img
+    ],
+    category: "Carousel Design",
+  },
+  {
     id: "60",
-    title: "Car Booklet Design",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: car01,
-    images: [car02, car03, car04, car05, car06, car07, car08, car09, car10, car11, car12, car13, car14],
-    category: "Magazine & Brochure Design",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Tromso Experiences",
+    description: "Curated image series crafted into a clean, modern carousel to promote exclusive travel itineraries.",
+    image: carouselTromso01Img,
+    images: [
+      carouselTromso02Img, 
+      carouselTromso03Img, 
+      carouselTromso04Img
+    ],
+    category: "Carousel Design",
   },
-    {
+
+  // ==========================================
+  // 5. MAGAZINE & BROCHURE DESIGN
+  // ==========================================
+  {
     id: "61",
-    title: "Paris to Rome",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: paris01,
-    images: [paris02, paris03, paris04, paris05, paris06, paris07, paris08, paris09, paris10, paris11, paris12, paris13, paris14, paris15],
+    title: "Travel Magazine 2k26",
+    description: "Comprehensive editorial design and layout for a modern travel publication, showcasing global destinations.",
+    image: magazineB2601CoverImg,
+    images: [
+      magazineB2602Img, magazineB2603Img, magazineB2604Img, magazineB2605Img, magazineB2606Img, 
+      magazineB2607Img, magazineB2608Img, magazineB2609Img, magazineB2610Img, magazineB2611Img, 
+      magazineB2612Img, magazineB2613Img, magazineB2614Img, magazineB2615Img, magazineB2616Img, 
+      magazineB2617Img, magazineB2618Img, magazineB2619Img, magazineB2620Img, magazineB2621Img, 
+      magazineB2622Img, magazineB2623Img, magazineB2624Img, magazineB2625Img, magazineB2626Img, 
+      magazineB2627Img, magazineB2628Img, magazineB2629Img, magazineB2630Img, magazineB2631Img, 
+      magazineB2632Img, magazineB2633Img, magazineB2634Img, magazineB2635Img, magazineB2636Img, 
+      magazineB2637Img, magazineB2638Img, magazineB2639Img, magazineB2640Img, magazineB2641Img, 
+      magazineB2642Img, magazineB2643Img, magazineB2644Img, magazineB2645Img, magazineB2646Img, 
+      magazineB2647Img, magazineB2648Img, magazineB2649Img, magazineB2650Img, magazineB2651Img, 
+      magazineB2652Img
+    ],
     category: "Magazine & Brochure Design",
-    link: "https://www.behance.net/kushagraarora3",
   },
-   {
+  {
     id: "62",
-    title: "Paris to Rome",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew12,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    title: "Travel Magazine 2k25",
+    description: "Multi-page brochure design focusing on clean typography and engaging visual storytelling for the travel industry.",
+    image: magazineB2501Img,
+    images: [
+      magazineB2502Img, magazineB2503Img, magazineB2504Img, magazineB2505Img, 
+      magazineB2506Img, magazineB2507Img, magazineB2508Img, magazineB2509Img, 
+      magazineB2510Img, magazineB2511Img, magazineB2512Img, magazineB2513Img, 
+      magazineB2514Img, magazineB2515Img, magazineB2516Img, magazineB2517Img, 
+      magazineB2518Img, magazineB2519Img, magazineB2520Img
+    ],
+    category: "Magazine & Brochure Design",
   },
   {
     id: "63",
-    title: "Paris to Rome",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew13,
-    category: "Social Media Creatives",
+    title: "Car Showcase Booklet",
+    description: "Sleek automotive booklet highlighting vehicle features through premium layout and high-quality image curation.",
+    image: magazineCarBooklet01Img,
+    images: [
+      magazineCarBooklet02Img, magazineCarBooklet03Img, magazineCarBooklet04Img, 
+      magazineCarBooklet05Img, magazineCarBooklet06Img, magazineCarBooklet07Img, 
+      magazineCarBooklet08Img, magazineCarBooklet09Img, magazineCarBooklet10Img, 
+      magazineCarBooklet11Img, magazineCarBooklet12Img, magazineCarBooklet13Img, 
+      magazineCarBooklet14Img
+    ],
+    category: "Magazine & Brochure Design",
     link: "https://www.behance.net/kushagraarora3",
   },
   {
     id: "64",
-    title: "Paris to Rome",
-    description: "Playful 3D renders for a creative agency's social media presence. Vibrant, bold, and eye-catching.",
-    image: worknew14,
-    category: "Social Media Creatives",
+    title: "Paris to Rome Guide",
+    description: "Editorial layout and brochure design creating a cohesive visual narrative for cross-country European travel.",
+    image: magazineParisRome01Img,
+    images: [
+      magazineParisRome02Img, magazineParisRome03Img, magazineParisRome04Img, 
+      magazineParisRome05Img, magazineParisRome06Img, magazineParisRome07Img, 
+      magazineParisRome08Img, magazineParisRome09Img, magazineParisRome10Img, 
+      magazineParisRome11Img, magazineParisRome12Img, magazineParisRome13Img, 
+      magazineParisRome14Img, magazineParisRome15Img
+    ],
+    category: "Magazine & Brochure Design",
     link: "https://www.behance.net/kushagraarora3",
   },
+
+  // ==========================================
+  // 6. POSTERS, COVERS & PRINTABLES
+  // ==========================================
+  {
+    id: "65",
+    title: "God of War Poster",
+    description: "High-impact poster design utilizing dramatic lighting and typography to capture the essence of the gaming franchise.",
+    image: posterGodOfWarImg,
+    category: "Posters & Covers",
+  },
+  {
+    id: "66",
+    title: "The Night King Poster",
+    description: "Atmospheric and detailed character poster crafted for entertainment marketing.",
+    image: posterTheKnightKingImg,
+    category: "Posters & Covers",
+  },
+  {
+    id: "67",
+    title: "Magazine Cover Layout",
+    description: "Striking editorial layout and cover design focused on bold typography and visual hierarchy.",
+    image: posterMagazineCoverImg,
+    category: "Posters & Covers",
+  },
+  {
+    id: "68",
+    title: "Music Album Cover",
+    description: "Creative art direction and layout for an album cover, blending modern typography with stylized imagery.",
+    image: posterAlbumCoverImg,
+    category: "Posters & Covers",
+  },
+  {
+    id: "69",
+    title: "Gourmet Burger Poster",
+    description: "Vibrant and appetizing promotional poster designed to drive fast-food sales and brand awareness.",
+    image: posterBurgerAdPosterImg,
+    category: "Posters & Covers",
+  },
+  {
+    id: "70",
+    title: "Timeless Celebration Invite",
+    description: "Elegant and sophisticated event invitation design focusing on typography and premium layout.",
+    image: inviteTimelessCelebration01Img,
+    images: [inviteTimelessCelebration02Img, inviteTimelessCelebration03Img],
+    category: "Printables & More",
+  },
+
+  // ==========================================
+  // 7. FESTIVE CREATIVES
+  // ==========================================
+  {
+    id: "71",
+    title: "Christmas Greetings",
+    description: "Vibrant and culturally resonant social media creative celebrating festive moments to build brand community.",
+    image: festiveChristmasImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "72",
+    title: "Shubh Dhanteras",
+    description: "Elegant festive post celebrating prosperity and tradition with rich visual elements.",
+    image: festiveDhanterasImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "73",
+    title: "Diwali Greetings v2",
+    description: "Secondary Diwali campaign visual focusing on warmth, light, and festive joy.",
+    image: festiveDiwali02Img,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "74",
+    title: "Happy Diwali",
+    description: "A visually striking festive greeting designed to maximize sharing and brand visibility during the holiday season.",
+    image: festiveDiwaliImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "75",
+    title: "Happy Dussehra",
+    description: "Culturally significant digital poster celebrating the triumph of good over evil.",
+    image: festiveDussehraImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "76",
+    title: "Ganesh Chaturthi Greetings",
+    description: "Vibrant and respectful festive post crafted to celebrate traditional Indian holidays.",
+    image: festiveGaneshChaturthiImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "77",
+    title: "Happy Holi",
+    description: "Colorful and energetic social media creative capturing the spirit of the festival of colors.",
+    image: festiveHoliImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "78",
+    title: "Independence Day Tribute",
+    description: "Patriotic and impactful digital poster created for a national holiday social media campaign.",
+    image: festiveIndependenceDayImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "79",
+    title: "Maha Ashtami Blessings",
+    description: "Devotional and visually rich post designed for Navratri festival engagement.",
+    image: festiveMahaAshtamiImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "80",
+    title: "Maha Ashtami v2",
+    description: "Alternative festive creative utilizing traditional motifs and vibrant colors.",
+    image: festiveMahaAsthmi02Img,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "81",
+    title: "Happy Makar Sankranti",
+    description: "Joyful and bright social media asset celebrating the traditional harvest festival.",
+    image: festiveMakarSankranti01Img,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "82",
+    title: "Makar Sankranti Kites",
+    description: "Secondary campaign graphic capturing the cultural essence of the kite festival.",
+    image: festiveMakarSankranti02Img,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "83",
+    title: "Merry Christmas Wishes",
+    description: "Warm and inviting holiday post tailored to spread seasonal cheer.",
+    image: festiveMerryChristmasImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "84",
+    title: "Happy New Year",
+    description: "Celebratory digital asset designed to ring in the new year with bold, festive typography.",
+    image: festiveNewYearImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "85",
+    title: "Republic Day Honors",
+    description: "Stately and patriotic creative honoring the national heritage.",
+    image: festiveRepublicDayImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "86",
+    title: "Shubh Navratri",
+    description: "Traditional and highly detailed festive post celebrating the nine nights of Navratri.",
+    image: festiveShubhNavratriImg,
+    category: "Festive Creatives",
+    link: "https://www.behance.net/kushagraarora3",
+  }
 ];

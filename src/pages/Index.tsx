@@ -128,7 +128,7 @@ const Index = () => {
             </div>
             <p className="text-foreground font-display font-medium">Open to freelance & full-time roles</p>
             <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-              Looking for opportunities to collaborate on meaningful design projects — from startups to established brands.
+              Looking for opportunities to collaborate on meaningful design projects with startups and established brands.
             </p>
           </div>
 
@@ -136,7 +136,7 @@ const Index = () => {
           <div className="rounded-xl border border-border bg-card p-6">
             <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-3">Primary Tools</p>
             <div className="flex flex-wrap gap-2">
-              {["Figma", "Framer", "Photoshop", "Illustrator"].map((s) => (
+              {["Figma", "Framer", "Adobe Photoshop", "Adobe Illustrator",].map((s) => (
                 <span
                   key={s}
                   className="rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs text-primary"
@@ -162,7 +162,7 @@ const Index = () => {
             Work Experience
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            2+ years shaping complete brand identities, designing across print and digital, and creating impactful marketing assets. Managed social media and email marketing, boosted engagement and improved brand visibility across logos, magazines, brochures, websites, and merchandise.
+            3+ years of design experience shaping comprehensive brand identities and crafting high-impact print and digital marketing assets. Proven track record of managing targeted social media and email campaigns to drive audience engagement and elevate brand visibility across logos, editorial layouts, brochures, web interfaces, and custom merchandise.
           </p>
         </div>
 

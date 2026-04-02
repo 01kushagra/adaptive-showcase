@@ -43,6 +43,10 @@ import socialMediaNewspaperAdImg from "@/assets/social-media-posts/new/newspaper
 import socialMediaNikeShoesImg from "@/assets/social-media-posts/new/nike-shoes.jpg";
 import socialMediaToshibaImg from "@/assets/social-media-posts/new/toshiba.jpg";
 
+// --- WEB BANNERS ---
+import webBannerBeautyBannerImg from "@/assets/banners-thumbnails/beauty-banner.jpg";
+import webBannerHeroSectionBannerImg from "@/assets/banners-thumbnails/hero-section-banner.jpg";
+
 // --- SOCIAL MEDIA POSTS - FESTIVE ---
 import festiveChristmasImg from "@/assets/social-media-posts/festival/christmas.jpg";
 import festiveDhanterasImg from "@/assets/social-media-posts/festival/dhanteras.jpg";
@@ -67,6 +71,7 @@ import posterBurgerAdPosterImg from "@/assets/posters-albums/burger-ad-poster.jp
 import posterMagazineCoverImg from "@/assets/posters-albums/magazine-cover.jpg";
 import posterTheKnightKingImg from "@/assets/posters-albums/the-knight-king.jpg";
 import posterAlbumCoverImg from "@/assets/posters-albums/album-cover.jpg";
+import posterAnniversaryImg from "@/assets/posters-albums/anniversary-collage-01.jpg";
 
 // --- INVITES ---
 import inviteTimelessCelebration01Img from "@/assets/invites/timeless-celebration-01.png";
@@ -285,12 +290,13 @@ import logoAllInOneImg from "@/assets/logo/all-in-one.jpg";
 import logoBlueEyesImg from "@/assets/logo/blue-eyes.jpg";
 import logoNovanestImg from "@/assets/logo/novelty-flowers/novanest.jpg";
 
-// --- UX/UI ---
+// --- UX/UI/TOA ---
 import uxTheOneAwardsImg from "@/assets/ux/the-one-awards/the-one-awards.jpg";
 import uxTheOneAwards01Img from "@/assets/ux/the-one-awards/the-one-awards-01.jpg";
 import uxTheOneAwards02Img from "@/assets/ux/the-one-awards/the-one-awards-02.jpg";
 import uxTheOneAwards03Img from "@/assets/ux/the-one-awards/the-one-awards-03.jpg";
 
+// --- UX/UI/NFTRIZZ ---
 import uxNftRizzImg from "@/assets/ux/nft-rizz/nft-rizz.jpg";
 import uxNftRizz01Img from "@/assets/ux/nft-rizz/nft-rizz-01.jpg";
 import uxNftRizz02Img from "@/assets/ux/nft-rizz/nft-rizz-02.jpg";
@@ -304,6 +310,33 @@ import uxSpinnlySplash03Img from "@/assets/ux/spinnly-wash/splash03.jpg";
 import uxSpinnlySubscriptionImg from "@/assets/ux/spinnly-wash/subsciption.jpg";
 import uxSpinnlyHome02Img from "@/assets/ux/spinnly-wash/home02.jpg";
 
+// --- UX/UI/GTDMC ---
+import uxGtdmc01Img from "@/assets/ux/gtdmc-website/gtdmc-01.jpg";
+import uxGtdmc02Img from "@/assets/ux/gtdmc-website/gtdmc-02.jpg";
+
+// --- UX/UI/COTRAV ---
+import uxCotrav01Img from "@/assets/ux/cotrav/cotrav-01.jpg";
+import uxCotrav02Img from "@/assets/ux/cotrav/cotrav-02.jpg";
+import uxCotrav03Img from "@/assets/ux/cotrav/cotrav-03.jpg";
+
+// --- UX/UI/SPINNLY ---
+import uxStatsSnap01Img from "@/assets/ux/stats-snap/stats-snap-01.jpg";
+import uxStatsSnap02Img from "@/assets/ux/stats-snap/stats-snap-02.jpg";
+import uxStatsSnap03Img from "@/assets/ux/stats-snap/stats-snap-03.jpg";
+
+// --- BANNERS ---
+import banner01Img from "@/assets/printables-more/banner-01.jpg";
+import banner02Img from "@/assets/printables-more/banner-02.jpg";
+import banner03Img from "@/assets/printables-more/banner-03.jpg";
+import banner04Img from "@/assets/printables-more/banner-04.jpg";
+import banner05Img from "@/assets/printables-more/banner-05.jpg";
+import banner06Img from "@/assets/printables-more/banner-06.jpg";
+import banner07Img from "@/assets/printables-more/banner-07.jpg";
+import banner08Img from "@/assets/printables-more/banner-08.jpg";
+import banner09Img from "@/assets/printables-more/banner-09.jpg";
+import bannerOtmBanner01Img from "@/assets/printables-more/otm-banner-01.jpg";
+import bannerOtmBanner02Img from "@/assets/printables-more/otm-banner-02.jpg";
+
 // --- BRANDING ---
 import brandingCreditCard01Img from "@/assets/branding-packaging/branding/credit-card/credit-card-01.jpg";
 import brandingCreditCard02Img from "@/assets/branding-packaging/branding/credit-card/credit-card-02.jpg";
@@ -315,222 +348,18 @@ export interface WorkItem {
   id: string;
   title: string;
   description: string;
-  /** Primary image (used as thumbnail & first slide) */
-  image: string;
-  /** Additional images for carousel (optional) */
-  images?: string[];
-  /** PDF URL to embed/view (optional) */
-  pdfUrl?: string;
+  image: any;
+  images?: any[];
   category: string;
-  /** External link — shows a "View Project" button (optional) */
   link?: string;
 }
 
-// ✅ Easy to maintain — just add/remove items from this array
 export const works: WorkItem[] = [
-  // ==========================================
-  // 1. UX DESIGN & WEB DEVELOPMENT
-  // ==========================================
+  // ------------------------------------------
+  // 1. SOCIAL MEDIA CREATIVES
+  // ------------------------------------------
   {
-    id: "1",
-    title: "The One Awards - Website Landing Page",
-    description: "Clean, user-centric interface design focused on seamless navigation, strong visual hierarchy, and an engaging digital experience.",
-    image: uxTheOneAwardsImg,
-    images: [
-      uxTheOneAwards01Img, 
-      uxTheOneAwards02Img, 
-      uxTheOneAwards03Img
-    ],
-    category: "UX Design",
-  },
-  {
-    id: "2",
-    title: "NFT Rizz - Website Landing Page",
-    description: "Modern web interface designed for the Web3 space, prioritizing an intuitive user journey and bold aesthetics.",
-    image: uxNftRizzImg,
-    images: [
-      uxNftRizz01Img, 
-      uxNftRizz02Img, 
-      uxNftRizz03Img, 
-      uxNftRizz05Img
-    ],
-    category: "UX Design",
-  },
-  {
-    id: "3",
-    title: "Spinnly Wash Platform",
-    description: "Comprehensive UX/UI design for a digital platform, ensuring a frictionless user experience from start to finish.",
-    image: uxSpinnlyCoverImg,
-    images: [
-      uxSpinnlyHomeImg, 
-      uxSpinnlySplash03Img, 
-      uxSpinnlySubscriptionImg, 
-      uxSpinnlyHome02Img
-    ],
-    category: "UX Design",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-
-  // ==========================================
-  // 2. SOCIAL MEDIA CREATIVES
-  // ==========================================
-  {
-    id: "5",
-    title: "Big Bus Tours",
-    description: "Dynamic digital creative designed to inspire travel and highlight premium tourism experiences.",
-    image: socialMediaBigBusToursImg,
-    category: "Social Media Creatives",
-    link: "https://delicate-salesman-ef8.notion.site/28d6f2ef586f8075970bc1960ce3d36b?embed=true"
-  },
-  {
-    id: "6",
-    title: "The Arctic Route",
-    description: "Immersive social media graphic showcasing stunning destination visuals to drive audience engagement.",
-    image: socialMediaTheArcticRouteImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "7",
-    title: "Bateaux Parisiens",
-    description: "Elegant social media visual promoting luxury river cruising and atmospheric travel experiences.",
-    image: socialMediaBateauxParisiensImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "8",
-    title: "On Ground Services",
-    description: "Targeted digital marketing asset focused on communicating clear, value-driven service offerings.",
-    image: socialMediaOnGroundServiceImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "9",
-    title: "Satte Invite",
-    description: "Professional event invitation graphic designed for industry conferences and B2B engagement.",
-    image: socialMediaSatteInvite2Img,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "10",
-    title: "Colosseum Tour Promo",
-    description: "Captivating promotional visual designed to boost tourism awareness for historic European destinations.",
-    image: socialMediaColosseumImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "11",
-    title: "Vatican Museum",
-    description: "Engaging social media post highlighting cultural heritage and premium guided tours.",
-    image: socialMediaVaticanMuseumImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "12",
-    title: "Core Services Highlight",
-    description: "Clean and informative social media creative detailing core business services and value propositions.",
-    image: socialMediaServicesPostImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "13",
-    title: "Explore Rovaniemi",
-    description: "Winter tourism campaign graphic capturing the magical essence of Lapland getaways.",
-    image: socialMediaRovaniemiImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "14",
-    title: "Rovaniemi Travel Promo",
-    description: "Secondary campaign asset driving bookings for exclusive Arctic winter experiences.",
-    image: socialMediaRovaniemi2Img,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "15",
-    title: "Kakslauttanen Arctic Resort",
-    description: "Visually striking post promoting unique glass igloo stays and Northern Lights tourism.",
-    image: socialMediaKakslauttanenImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "16",
-    title: "Jungfraujoch Peak",
-    description: "Breathtaking mountain excursion promotional graphic tailored for adventure seekers.",
-    image: socialMediaJungfraujochImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "17",
-    title: "Mt. Titlis Excursion",
-    description: "High-impact social media creative showcasing alpine attractions and travel packages.",
-    image: socialMediaTitlisPostImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "18",
-    title: "Happy Travelers Spotlight",
-    description: "Lifestyle-focused social media post building brand trust through customer satisfaction visuals.",
-    image: socialMediaHappyTravelersImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "19",
-    title: "Mount Pilatus",
-    description: "Engaging destination marketing graphic for Mount Pilatus excursions.",
-    image: socialMediaPilatusImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "20",
-    title: "Eastern Europe Tours",
-    description: "Multi-destination travel campaign visual promoting Eastern European cultural tours.",
-    image: socialMediaEasternEuropeVanToursImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "21",
-    title: "Premium MiniVans",
-    description: "Service-oriented social media post highlighting a premium fleet and transport solutions.",
-    image: socialMediaMiniVansImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "22",
-    title: "TTJ Event Invite",
-    description: "Corporate invitation graphic tailored for travel trade professionals and networking events.",
-    image: socialMediaTtjInvite1Img,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "23",
-    title: "Smooth Transfers",
-    description: "Clean, logistics-focused creative promoting seamless ground transportation services.",
-    image: socialMediaSmoothTransfersImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "24",
-    title: "TTF Exhibition Invite",
-    description: "Professional exhibition invite designed to maximize booth footfall at the Travel & Tourism Fair.",
-    image: socialMediaTtfInviteImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "25",
-    title: "OTM Expo Invite",
-    description: "Strategic B2B marketing graphic for the Outbound Travel Mart.",
-    image: socialMediaOtmInviteImg,
-    category: "Social Media Creatives",
-  },
-  {
-    id: "26",
+    id: "social-marketing-campaign",
     title: "Marketing Campaign Post",
     description: "Versatile marketing asset designed to boost brand visibility and digital engagement.",
     image: socialMediaMarketingP1Img,
@@ -538,605 +367,716 @@ export const works: WorkItem[] = [
     category: "Social Media Creatives",
   },
   {
-    id: "27",
-    title: "Telaster Feature",
-    description: "Brand-focused social media creative highlighting product features and modern aesthetics.",
-    image: socialMediaTelasterImg,
+    id: "social-the-arctic-route",
+    title: "The Arctic Route",
+    description: "Immersive social media graphic showcasing stunning destination visuals to drive audience engagement.",
+    image: socialMediaTheArcticRouteImg,
     category: "Social Media Creatives",
   },
   {
-    id: "28",
-    title: "Tech Solutions Showcase",
-    description: "Sleek and futuristic promotional graphic tailored for technology-driven services.",
-    image: socialMediaAlobhaImg,
+    id: "social-toshiba-tech",
+    title: "Toshiba Tech Display",
+    description: "Clean, technical product graphic highlighting electronic reliability and modern design.",
+    image: socialMediaToshibaImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
   {
-    id: "29",
+    id: "social-on-ground-services",
+    title: "On Ground Services",
+    description: "Targeted digital marketing asset focused on communicating clear, value-driven service offerings.",
+    image: socialMediaOnGroundServiceImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-vatican-museum",
+    title: "Vatican Museum",
+    description: "Engaging social media post highlighting cultural heritage and premium guided tours.",
+    image: socialMediaVaticanMuseumImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-beauty-banner",
+    title: "Beauty Banner Ad",
+    description: "Vibrant and aesthetic social media creative driving user acquisition for beauty services.",
+    image: socialMediaBeautyBannerImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-bateaux-parisiens",
+    title: "Bateaux Parisiens",
+    description: "Elegant social media visual promoting luxury river cruising and atmospheric travel experiences.",
+    image: socialMediaBateauxParisiensImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-eastern-europe-tours",
+    title: "Eastern Europe Tours",
+    description: "Multi-destination travel campaign visual promoting Eastern European cultural tours.",
+    image: socialMediaEasternEuropeVanToursImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-ttj-invite",
+    title: "TTJ Event Invite",
+    description: "Corporate invitation graphic tailored for travel trade professionals and networking events.",
+    image: socialMediaTtjInvite1Img,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-kakslauttanen-resort",
+    title: "Kakslauttanen Arctic Resort",
+    description: "Visually striking post promoting unique glass igloo stays and Northern Lights tourism.",
+    image: socialMediaKakslauttanenImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-big-bus-tours",
+    title: "Big Bus Tours",
+    description: "Dynamic digital creative designed to inspire travel and highlight premium tourism experiences.",
+    image: socialMediaBigBusToursImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-satte-invite",
+    title: "Satte Invite",
+    description: "Professional event invitation graphic designed for industry conferences and B2B engagement.",
+    image: socialMediaSatteInvite2Img,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-organic-ghee",
+    title: "Organic Ghee Highlight",
+    description: "Premium product showcase highlighting organic qualities and traditional branding.",
+    image: socialMediaGheeAdImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-colosseum-tour",
+    title: "Colosseum Tour Promo",
+    description: "Captivating promotional visual designed to boost tourism awareness for historic European destinations.",
+    image: socialMediaColosseumImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-core-services",
+    title: "Core Services Highlight",
+    description: "Clean and informative social media creative detailing core business services and value propositions.",
+    image: socialMediaServicesPostImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-natural-honey",
+    title: "Natural Honey Showcase",
+    description: "Nature-inspired product promotional post emphasizing purity and health benefits.",
+    image: socialMediaHoneyAdImg,
+    category: "Social Media Creatives",
+  },
+
+  {
+    id: "social-rovaniemi-promo",
+    title: "Rovaniemi Travel Promo",
+    description: "Secondary campaign asset driving bookings for exclusive Arctic winter experiences.",
+    image: socialMediaRovaniemi2Img,
+    images: [socialMediaRovaniemiImg],
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-jungfraujoch-peak",
+    title: "Jungfraujoch Peak",
+    description: "Breathtaking mountain excursion promotional graphic tailored for adventure seekers.",
+    image: socialMediaJungfraujochImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-mt-titlis",
+    title: "Mt. Titlis Excursion",
+    description: "High-impact social media creative showcasing alpine attractions and travel packages.",
+    image: socialMediaTitlisPostImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-happy-travelers",
+    title: "Happy Travelers Spotlight",
+    description: "Lifestyle-focused social media post building brand trust through customer satisfaction visuals.",
+    image: socialMediaHappyTravelersImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-mount-pilatus",
+    title: "Mount Pilatus",
+    description: "Engaging destination marketing graphic for Mount Pilatus excursions.",
+    image: socialMediaPilatusImg,
+    category: "Social Media Creatives",
+  },
+
+  {
+    id: "social-smooth-transfers",
+    title: "Smooth Transfers",
+    description: "Clean, logistics-focused creative promoting seamless ground transportation services.",
+    image: socialMediaSmoothTransfersImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-premium-minivans",
+    title: "Premium MiniVans",
+    description: "Service-oriented social media post highlighting a premium fleet and transport solutions.",
+    image: socialMediaMiniVansImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-gtdmc-brand",
+    title: "GTDMC Brand Feature",
+    description: "Corporate profile post establishing industry authority and travel expertise.",
+    image: socialMediaGtdmcPost1Img,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-otm-invite",
+    title: "OTM Expo Invite",
+    description: "Strategic B2B marketing graphic for the Outbound Travel Mart.",
+    image: socialMediaOtmInviteImg,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-hair-clinic-testimonial",
+    title: "Hair Clinic Testimonial",
+    description: "Secondary campaign graphic emphasizing patient results and professional care.",
+    image: socialMediaHairTransplantPost02Img,
+    images: [socialMediaHairTransplantPost01Img],
+    category: "Social Media Creatives",
+  },
+
+
+  {
+    id: "social-arora-dezigns",
     title: "Arora Dezigns Profile",
     description: "Self-promotional studio graphic showcasing brand identity and creative capabilities.",
     image: socialMediaAroraDezignImg,
     images: [socialMediaAroraDezign01Img],
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
   {
-    id: "30",
-    title: "Beauty Banner Ad",
-    description: "Vibrant and aesthetic social media creative driving user acquisition for beauty services.",
-    image: socialMediaBeautyBannerImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "31",
+    id: "social-burger-ad",
     title: "Burger Advertisement",
     description: "Appetizing food marketing post designed to maximize visual appeal and drive conversions.",
     image: socialMediaBurgerAd02Img,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
   {
-    id: "32",
-    title: "Coffee Lifestyle Post",
-    description: "Clean and warm lifestyle graphic for product marketing and brand storytelling.",
-    image: socialMediaCoffeeMug01Img,
+    id: "social-telaster-feature",
+    title: "Telaster Feature",
+    description: "Brand-focused social media creative highlighting product features and modern aesthetics.",
+    image: socialMediaTelasterImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
+
   {
-    id: "33",
-    title: "Combo Offer Promotion",
-    description: "Sales-driven promotional graphic highlighting special deals to maximize consumer interest.",
-    image: socialMediaComboOfferImg,
+    id: "social-ttf-invite",
+    title: "TTF Exhibition Invite",
+    description: "Professional exhibition invite designed to maximize booth footfall at the Travel & Tourism Fair.",
+    image: socialMediaTtfInviteImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
   {
-    id: "34",
-    title: "Organic Ghee Highlight",
-    description: "Premium product showcase highlighting organic qualities and traditional branding.",
-    image: socialMediaGheeAdImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "35",
-    title: "Hair Transplant Clinic Promo",
-    description: "Trust-building medical marketing graphic focused on cosmetic procedures.",
-    image: socialMediaHairTransplantPost01Img,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "36",
-    title: "Hair Clinic Testimonial",
-    description: "Secondary campaign graphic emphasizing patient results and professional care.",
-    image: socialMediaHairTransplantPost02Img,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "37",
-    title: "Natural Honey Showcase",
-    description: "Nature-inspired product promotional post emphasizing purity and health benefits.",
-    image: socialMediaHoneyAdImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "38",
+    id: "social-newspaper-ad",
     title: "Newspaper Advertisement",
     description: "Classic print-style digital asset formulated for broad audience reach.",
     image: socialMediaNewspaperAdImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
+
   {
-    id: "39",
+    id: "social-nike-footwear",
     title: "Nike Footwear Concept",
     description: "High-energy athletic product showcase focused on street style and performance.",
     image: socialMediaNikeShoesImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
   {
-    id: "40",
-    title: "Toshiba Tech Display",
-    description: "Clean, technical product graphic highlighting electronic reliability and modern design.",
-    image: socialMediaToshibaImg,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "41",
+    id: "social-mercedes-vito",
     title: "Mercedes Vito Transfers",
     description: "Luxury transport promotional visual highlighting premium travel comfort.",
     image: socialMediaVitoImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
   },
+
   {
-    id: "42",
-    title: "GTDMC Brand Feature",
-    description: "Corporate profile post establishing industry authority and travel expertise.",
-    image: socialMediaGtdmcPost1Img,
-    category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "43",
+    id: "social-city-breaks",
     title: "City Breaks Travel Post",
     description: "Inspiring travel creative focused on short weekend getaways and urban exploration.",
     image: socialMediaCityBreaksImg,
     category: "Social Media Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "social-coffee-lifestyle",
+    title: "Recruitmemt Post",
+    description: "Clean and warm lifestyle graphic for product marketing and brand storytelling.",
+    image: socialMediaCoffeeMug01Img,
+    category: "Social Media Creatives",
+  },
+  {
+    id: "social-combo-offer",
+    title: "Combo Offer Promotion",
+    description: "Sales-driven promotional graphic highlighting special deals to maximize consumer interest.",
+    image: socialMediaComboOfferImg,
+    category: "Social Media Creatives",
   },
 
-  // ==========================================
-  // 3. LOGO DESIGN & BRANDING
-  // ==========================================
+  // ------------------------------------------
+  // 2. UX DESIGN & WEB DEVELOPMENT
+  // ------------------------------------------
   {
-    id: "44",
+    id: "ux-spinnly-wash",
+    title: "Spinnly Wash Platform",
+    description: "Comprehensive UX/UI design for a digital platform, ensuring a frictionless user experience from start to finish.",
+    image: uxSpinnlyCoverImg,
+    images: [uxSpinnlyHomeImg, uxSpinnlySplash03Img, uxSpinnlySubscriptionImg, uxSpinnlyHome02Img],
+    category: "UX Design",
+    link: "https://delicate-salesman-ef8.notion.site/Spinnly-Wash-Mobile-App-Case-Study-2256f2ef586f80d38f7cd470448b2760",
+  },
+  {
+    id: "ux-the-one-awards",
+    title: "The One Awards - Website Landing Page",
+    description: "Clean, user-centric interface design focused on seamless navigation, strong visual hierarchy, and an engaging digital experience.",
+    image: uxTheOneAwardsImg,
+    images: [uxTheOneAwards01Img, uxTheOneAwards02Img, uxTheOneAwards03Img],
+    category: "UX Design",
+    link: "https://delicate-salesman-ef8.notion.site/The-One-Awards-Landing-Page-2256f2ef586f800f86e0c798e9750bf0",
+  },
+  {
+    id: "ux-gtdmc-landing",
+    title: "Global Travel DMC | Landing Page",
+    description: "Complete landing page design focusing on travel bookings, clear information architecture, and user conversion.",
+    image: uxGtdmc01Img,
+    images: [uxGtdmc02Img],
+    category: "UX Design",
+    link: "https://delicate-salesman-ef8.notion.site/Global-Travel-DMC-Website-2e56f2ef586f8069b38ac7f73669a0ba",
+  },
+  {
+    id: "ux-stats-snap-dashboard",
+    title: "Stats Snap | Dashboard",
+    description: "Data-driven e-commerce dashboard featuring clean UI elements and complex data visualization.",
+    image: uxStatsSnap01Img,
+    images: [uxStatsSnap02Img, uxStatsSnap03Img],
+    category: "UX Design",
+    link: "https://delicate-salesman-ef8.notion.site/Stats-Snap-E-Commerce-Dashboard-2256f2ef586f80aabb61fe4b4caf9ab3",
+  },
+  {
+    id: "ux-travel-dashboard",
+    title: "Travel Dashboard",
+    description: "Comprehensive travel management dashboard interface optimized for usability and fast task completion.",
+    image: uxCotrav01Img,
+    images: [uxCotrav02Img, uxCotrav03Img],
+    category: "UX Design",
+    link: "https://delicate-salesman-ef8.notion.site/CoTrav-Dashboard-2256f2ef586f8018b3e0fff28a190b51",
+  },
+  {
+    id: "ux-nft-rizz",
+    title: "NFT Rizz - Website Landing Page",
+    description: "Modern web interface designed for the Web3 space, prioritizing an intuitive user journey and bold aesthetics.",
+    image: uxNftRizzImg,
+    images: [uxNftRizz01Img, uxNftRizz02Img, uxNftRizz03Img, uxNftRizz05Img],
+    category: "UX Design",
+    link: "https://delicate-salesman-ef8.notion.site/NFT-Rizz-Landing-Page-2256f2ef586f80fca22cca0a162f6941",
+  },
+
+  // ------------------------------------------
+  // 3. LOGO DESIGN
+  // ------------------------------------------
+  {
+    id: "logo-global-travel-dmc",
     title: "Global Travel DMC",
     description: "Comprehensive brand identity and logo design establishing a strong, trustworthy visual presence.",
     image: logoGlobalTdmcWhiteImg,
-    images: [
-      logoGlobalTdmcBlackImg, 
-      logoGlobalTdmcBlueImg, 
-      logoGlobalTdmcFaviconWhiteImg, 
-      logoGlobalTdmcFaviconBlackImg
-    ],
+    images: [logoGlobalTdmcBlackImg, logoGlobalTdmcBlueImg, logoGlobalTdmcFaviconWhiteImg, logoGlobalTdmcFaviconBlackImg],
     category: "Logo Design",
   },
   {
-    id: "45",
+    id: "logo-novelty-flowers",
     title: "Novelty Flowers",
     description: "Elegant logo design and brand identity crafted to reflect premium quality and aesthetic appeal.",
     image: logoNoveltyFlowersV1Img,
-    images: [
-      logoNoveltyFlowersV1wImg, 
-      logoNoveltyFlowersV2wImg, 
-      logoNoveltyFlowersV2GreenImg
-    ],
+    images: [logoNoveltyFlowersV1wImg, logoNoveltyFlowersV2wImg, logoNoveltyFlowersV2GreenImg],
     category: "Logo Design",
   },
   {
-    id: "46",
+    id: "logo-smc-club",
     title: "SMC Club",
     description: "Modern, versatile logo design creating a recognizable mark for club branding.",
     image: logoSmcClubWhiteImg,
-    images: [
-      logoSmcClubImg, 
-      logoSmcFaviconBImg, 
-      logoSmcFaviconWImg
-    ],
+    images: [logoSmcClubImg, logoSmcFaviconBImg, logoSmcFaviconWImg],
     category: "Logo Design",
   },
+
   {
-    id: "47",
-    title: "All in One",
-    description: "Clean and scalable logo design providing a unified brand identity.",
-    image: logoAllInOneImg,
-    category: "Logo Design",
-  },
-  {
-    id: "48",
-    title: "Refill Box",
-    description: "Eco-friendly inspired logo design focusing on sustainability and simplicity.",
-    image: logoRefillBoxImg,
-    category: "Logo Design",
-  },
-  {
-    id: "49",
-    title: "Blue Eyes",
-    description: "Striking visual identity and logo mark tailored for brand memorability.",
-    image: logoBlueEyesImg,
-    category: "Logo Design",
-  },
-  {
-    id: "50",
+    id: "logo-nova-nest",
     title: "Nova Nest",
     description: "Warm, inviting brand identity perfectly suited for the home and lifestyle sector.",
     image: logoNovanestImg,
     category: "Logo Design",
   },
   {
-    id: "51",
-    title: "Premium Credit Card Branding",
-    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
-    image: brandingCreditCard01Img,
-    images: [
-      brandingCreditCard02Img, 
-      brandingMobileMockups01Img, 
-      brandingMobileMockups02Img
-    ],
-    category: "Branding & Packaging Design",
+    id: "logo-refill-box",
+    title: "Refill Box",
+    description: "Eco-friendly inspired logo design focusing on sustainability and simplicity.",
+    image: logoRefillBoxImg,
+    category: "Logo Design",
+  },
+  {
+    id: "logo-all-in-one",
+    title: "All in One",
+    description: "Clean and scalable logo design providing a unified brand identity.",
+    image: logoAllInOneImg,
+    category: "Logo Design",
+  },
+  {
+    id: "logo-blue-eyes",
+    title: "Blue Eyes",
+    description: "Striking visual identity and logo mark tailored for brand memorability.",
+    image: logoBlueEyesImg,
+    category: "Logo Design",
   },
 
-  // ==========================================
-  // 4. CAROUSEL DESIGN
-  // ==========================================
-  {
-    id: "52",
-    title: "Hand-crafted Travel Services",
-    description: "Engaging carousel design exploring bold abstract geometric compositions and deep contrasts.",
-    image: carouselHandcraftedServicesImg,
-    images: [
-      carouselCityBreaksCopyImg, 
-      carouselMultiCountryToursImg, 
-      carouselFitCustomizationImg, 
-      carouselPrivateDisposalVehiclesImg, 
-      carouselHotelsAndStaysImg, 
-      carouselMountainExcursionsImg, 
-      carouselAdHocGroupsImg, 
-      carouselSightseeingsImg, 
-      carouselRailPassesImg, 
-      carouselContactPageImg
-    ],
-    category: "Carousel Design",
-  },
-  {
-    id: "53",
-    title: "Mamaearth Facewash Features",
-    description: "Clean, fresh, and product-focused carousel design highlighting key skincare benefits and brand aesthetics.",
-    image: carouselMamaearth01Img,
-    images: [
-      carouselMamaearth02Img, 
-      carouselMamaearth03Img, 
-      carouselMamaearth04Img, 
-      carouselMamaearth05Img
-    ],
-    category: "Carousel Design",
-  },
-  {
-    id: "54",
-    title: "Copenhagen City Break",
-    description: "Engaging social media carousel showcasing the vibrant architecture and travel experiences of Copenhagen.",
-    image: carouselCopenhagen01Img,
-    images: [
-      carouselCopenhagen02Img, 
-      carouselCopenhagen03Img, 
-      carouselCopenhagen04Img, 
-      carouselCopenhagen05Img, 
-      carouselCopenhagen06Img, 
-      carouselCopenhagen07Img
-    ],
-    category: "Carousel Design",
-  },
-  {
-    id: "55",
-    title: "Croatia Travel Highlights",
-    description: "Immersive carousel design highlighting the stunning coastlines and historic cities of Croatia.",
-    image: carouselCroatia01Img,
-    images: [
-      carouselCroatia02Img, 
-      carouselCroatia03Img, 
-      carouselCroatia04Img, 
-      carouselCroatia05Img, 
-      carouselCroatia06Img
-    ],
-    category: "Carousel Design",
-  },
-  {
-    id: "56",
-    title: "Kakslauttanen Arctic Resort",
-    description: "Engaging digital carousel crafted to highlight premium winter stays and Arctic adventures.",
-    image: carouselKakslauttanen01Img,
-    images: [
-      carouselKakslauttanen02Img, 
-      carouselKakslauttanen03Img, 
-      carouselKakslauttanen04Img, 
-      carouselKakslauttanen05Img, 
-      carouselKakslauttanen06Img
-    ],
-    category: "Carousel Design",
-  },
-  {
-    id: "57",
-    title: "Discover Lofoten Islands",
-    description: "Visually striking social media carousel driving engagement for breathtaking Nordic travel destinations.",
-    image: carouselLofotenIsland01Img,
-    images: [
-      carouselLofotenIsland02Img, 
-      carouselLofotenIsland03Img, 
-      carouselLofotenIsland04Img, 
-      carouselLofotenIsland05Img, 
-      carouselLofotenIsland06Img
-    ],
-    category: "Carousel Design",
-  },
-  {
-    id: "58",
-    title: "The Nordic Region Journey",
-    description: "Comprehensive multi-slide informative carousel designed to guide travelers through various Nordic countries.",
-    image: carouselTheNordicRegionImg,
-    images: [
-      carouselFinlandImg,
-      carouselDenmarkImg,
-      carouselNorwayImg,
-      carouselSwedenImg,
-      carouselIcelandImg,
-      carouselGreenlandImg,
-      carouselFaroeIslandsImg,
-      carouselAlandImg,
-      carouselNordicRegionImg
-    ],
-    category: "Carousel Design",
-  },
-  {
-    id: "59",
-    title: "Rovaniemi Winter Escapes",
-    description: "Dynamic and compelling visual narrative highlighting the magic of Rovaniemi for tourism campaigns.",
-    image: carouselRovaniemi01Img,
-    images: [
-      carouselRovaniemi02Img, 
-      carouselRovaniemi03Img, 
-      carouselRovaniemi04Img, 
-      carouselRovaniemi05Img, 
-      carouselRovaniemi06Img, 
-      carouselRovaniemi07Img
-    ],
-    category: "Carousel Design",
-  },
-  {
-    id: "60",
-    title: "Tromso Experiences",
-    description: "Curated image series crafted into a clean, modern carousel to promote exclusive travel itineraries.",
-    image: carouselTromso01Img,
-    images: [
-      carouselTromso02Img, 
-      carouselTromso03Img, 
-      carouselTromso04Img
-    ],
-    category: "Carousel Design",
-  },
 
-  // ==========================================
-  // 5. MAGAZINE & BROCHURE DESIGN
-  // ==========================================
+  // ------------------------------------------
+  // 4. MAGAZINE & BROCHURE DESIGN
+  // ------------------------------------------
   {
-    id: "61",
+    id: "magazine-travel-2k26",
     title: "Travel Magazine 2k26",
     description: "Comprehensive editorial design and layout for a modern travel publication, showcasing global destinations.",
     image: magazineB2601CoverImg,
-    images: [
-      magazineB2602Img, magazineB2603Img, magazineB2604Img, magazineB2605Img, magazineB2606Img, 
-      magazineB2607Img, magazineB2608Img, magazineB2609Img, magazineB2610Img, magazineB2611Img, 
-      magazineB2612Img, magazineB2613Img, magazineB2614Img, magazineB2615Img, magazineB2616Img, 
-      magazineB2617Img, magazineB2618Img, magazineB2619Img, magazineB2620Img, magazineB2621Img, 
-      magazineB2622Img, magazineB2623Img, magazineB2624Img, magazineB2625Img, magazineB2626Img, 
-      magazineB2627Img, magazineB2628Img, magazineB2629Img, magazineB2630Img, magazineB2631Img, 
-      magazineB2632Img, magazineB2633Img, magazineB2634Img, magazineB2635Img, magazineB2636Img, 
-      magazineB2637Img, magazineB2638Img, magazineB2639Img, magazineB2640Img, magazineB2641Img, 
-      magazineB2642Img, magazineB2643Img, magazineB2644Img, magazineB2645Img, magazineB2646Img, 
-      magazineB2647Img, magazineB2648Img, magazineB2649Img, magazineB2650Img, magazineB2651Img, 
-      magazineB2652Img
-    ],
+    images: [magazineB2602Img, magazineB2603Img, magazineB2604Img, magazineB2605Img, magazineB2606Img, magazineB2607Img, magazineB2608Img, magazineB2609Img, magazineB2610Img, magazineB2611Img, magazineB2612Img, magazineB2613Img, magazineB2614Img, magazineB2615Img, magazineB2616Img, magazineB2617Img, magazineB2618Img, magazineB2619Img, magazineB2620Img, magazineB2621Img, magazineB2622Img, magazineB2623Img, magazineB2624Img, magazineB2625Img, magazineB2626Img, magazineB2627Img, magazineB2628Img, magazineB2629Img, magazineB2630Img, magazineB2631Img, magazineB2632Img, magazineB2633Img, magazineB2634Img, magazineB2635Img, magazineB2636Img, magazineB2637Img, magazineB2638Img, magazineB2639Img, magazineB2640Img, magazineB2641Img, magazineB2642Img, magazineB2643Img, magazineB2644Img, magazineB2645Img, magazineB2646Img, magazineB2647Img, magazineB2648Img, magazineB2649Img, magazineB2650Img, magazineB2651Img, magazineB2652Img],
     category: "Magazine & Brochure Design",
   },
   {
-    id: "62",
+    id: "magazine-travel-2k25",
     title: "Travel Magazine 2k25",
     description: "Multi-page brochure design focusing on clean typography and engaging visual storytelling for the travel industry.",
     image: magazineB2501Img,
-    images: [
-      magazineB2502Img, magazineB2503Img, magazineB2504Img, magazineB2505Img, 
-      magazineB2506Img, magazineB2507Img, magazineB2508Img, magazineB2509Img, 
-      magazineB2510Img, magazineB2511Img, magazineB2512Img, magazineB2513Img, 
-      magazineB2514Img, magazineB2515Img, magazineB2516Img, magazineB2517Img, 
-      magazineB2518Img, magazineB2519Img, magazineB2520Img
-    ],
+    images: [magazineB2502Img, magazineB2503Img, magazineB2504Img, magazineB2505Img, magazineB2506Img, magazineB2507Img, magazineB2508Img, magazineB2509Img, magazineB2510Img, magazineB2511Img, magazineB2512Img, magazineB2513Img, magazineB2514Img, magazineB2515Img, magazineB2516Img, magazineB2517Img, magazineB2518Img, magazineB2519Img, magazineB2520Img],
     category: "Magazine & Brochure Design",
   },
   {
-    id: "63",
+    id: "magazine-car-showcase",
     title: "Car Showcase Booklet",
     description: "Sleek automotive booklet highlighting vehicle features through premium layout and high-quality image curation.",
     image: magazineCarBooklet01Img,
-    images: [
-      magazineCarBooklet02Img, magazineCarBooklet03Img, magazineCarBooklet04Img, 
-      magazineCarBooklet05Img, magazineCarBooklet06Img, magazineCarBooklet07Img, 
-      magazineCarBooklet08Img, magazineCarBooklet09Img, magazineCarBooklet10Img, 
-      magazineCarBooklet11Img, magazineCarBooklet12Img, magazineCarBooklet13Img, 
-      magazineCarBooklet14Img
-    ],
+    images: [magazineCarBooklet02Img, magazineCarBooklet03Img, magazineCarBooklet04Img, magazineCarBooklet05Img, magazineCarBooklet06Img, magazineCarBooklet07Img, magazineCarBooklet08Img, magazineCarBooklet09Img, magazineCarBooklet10Img, magazineCarBooklet11Img, magazineCarBooklet12Img, magazineCarBooklet13Img, magazineCarBooklet14Img],
     category: "Magazine & Brochure Design",
     link: "https://www.behance.net/kushagraarora3",
   },
   {
-    id: "64",
+    id: "magazine-paris-to-rome",
     title: "Paris to Rome Guide",
     description: "Editorial layout and brochure design creating a cohesive visual narrative for cross-country European travel.",
     image: magazineParisRome01Img,
-    images: [
-      magazineParisRome02Img, magazineParisRome03Img, magazineParisRome04Img, 
-      magazineParisRome05Img, magazineParisRome06Img, magazineParisRome07Img, 
-      magazineParisRome08Img, magazineParisRome09Img, magazineParisRome10Img, 
-      magazineParisRome11Img, magazineParisRome12Img, magazineParisRome13Img, 
-      magazineParisRome14Img, magazineParisRome15Img
-    ],
+    images: [magazineParisRome02Img, magazineParisRome03Img, magazineParisRome04Img, magazineParisRome05Img, magazineParisRome06Img, magazineParisRome07Img, magazineParisRome08Img, magazineParisRome09Img, magazineParisRome10Img, magazineParisRome11Img, magazineParisRome12Img, magazineParisRome13Img, magazineParisRome14Img, magazineParisRome15Img],
     category: "Magazine & Brochure Design",
     link: "https://www.behance.net/kushagraarora3",
   },
 
-  // ==========================================
-  // 6. POSTERS, COVERS & PRINTABLES
-  // ==========================================
+  // ------------------------------------------
+  // 5. CAROUSEL DESIGN
+  // ------------------------------------------
   {
-    id: "65",
+    id: "carousel-hand-crafted-travel",
+    title: "Hand-crafted Travel Services",
+    description: "Engaging carousel design exploring bold abstract geometric compositions and deep contrasts.",
+    image: carouselHandcraftedServicesImg,
+    images: [carouselCityBreaksCopyImg, carouselMultiCountryToursImg, carouselFitCustomizationImg, carouselPrivateDisposalVehiclesImg, carouselHotelsAndStaysImg, carouselMountainExcursionsImg, carouselAdHocGroupsImg, carouselSightseeingsImg, carouselRailPassesImg, carouselContactPageImg],
+    category: "Carousel Design",
+  },
+  {
+    id: "carousel-mamaearth-facewash",
+    title: "Mamaearth Facewash Features",
+    description: "Clean, fresh, and product-focused carousel design highlighting key skincare benefits and brand aesthetics.",
+    image: carouselMamaearth01Img,
+    images: [carouselMamaearth02Img, carouselMamaearth03Img, carouselMamaearth04Img, carouselMamaearth05Img],
+    category: "Carousel Design",
+  },
+  {
+    id: "carousel-copenhagen-city-break",
+    title: "Copenhagen City Break",
+    description: "Engaging social media carousel showcasing the vibrant architecture and travel experiences of Copenhagen.",
+    image: carouselCopenhagen01Img,
+    images: [carouselCopenhagen02Img, carouselCopenhagen03Img, carouselCopenhagen04Img, carouselCopenhagen05Img, carouselCopenhagen06Img, carouselCopenhagen07Img],
+    category: "Carousel Design",
+  },
+  {
+    id: "carousel-croatia-travel",
+    title: "Croatia Travel Highlights",
+    description: "Immersive carousel design highlighting the stunning coastlines and historic cities of Croatia.",
+    image: carouselCroatia01Img,
+    images: [carouselCroatia02Img, carouselCroatia03Img, carouselCroatia04Img, carouselCroatia05Img, carouselCroatia06Img],
+    category: "Carousel Design",
+  },
+  {
+    id: "carousel-kakslauttanen-resort",
+    title: "Kakslauttanen Arctic Resort",
+    description: "Engaging digital carousel crafted to highlight premium winter stays and Arctic adventures.",
+    image: carouselKakslauttanen01Img,
+    images: [carouselKakslauttanen02Img, carouselKakslauttanen03Img, carouselKakslauttanen04Img, carouselKakslauttanen05Img, carouselKakslauttanen06Img],
+    category: "Carousel Design",
+  },
+  {
+    id: "carousel-discover-lofoten",
+    title: "Discover Lofoten Islands",
+    description: "Visually striking social media carousel driving engagement for breathtaking Nordic travel destinations.",
+    image: carouselLofotenIsland01Img,
+    images: [carouselLofotenIsland02Img, carouselLofotenIsland03Img, carouselLofotenIsland04Img, carouselLofotenIsland05Img, carouselLofotenIsland06Img],
+    category: "Carousel Design",
+  },
+  {
+    id: "carousel-nordic-region",
+    title: "The Nordic Region Journey",
+    description: "Comprehensive multi-slide informative carousel designed to guide travelers through various Nordic countries.",
+    image: carouselTheNordicRegionImg,
+    images: [carouselFinlandImg, carouselDenmarkImg, carouselNorwayImg, carouselSwedenImg, carouselIcelandImg, carouselGreenlandImg, carouselFaroeIslandsImg, carouselAlandImg, carouselNordicRegionImg],
+    category: "Carousel Design",
+  },
+  {
+    id: "carousel-rovaniemi-winter",
+    title: "Rovaniemi Winter Escapes",
+    description: "Dynamic and compelling visual narrative highlighting the magic of Rovaniemi for tourism campaigns.",
+    image: carouselRovaniemi01Img,
+    images: [carouselRovaniemi02Img, carouselRovaniemi03Img, carouselRovaniemi04Img, carouselRovaniemi05Img, carouselRovaniemi06Img, carouselRovaniemi07Img],
+    category: "Carousel Design",
+  },
+  {
+    id: "carousel-tromso-experiences",
+    title: "Tromso Experiences",
+    description: "Curated image series crafted into a clean, modern carousel to promote exclusive travel itineraries.",
+    image: carouselTromso01Img,
+    images: [carouselTromso02Img, carouselTromso03Img, carouselTromso04Img],
+    category: "Carousel Design",
+  },
+
+  // ------------------------------------------
+  // 6. POSTERS & COVERS
+  // ------------------------------------------
+  {
+    id: "poster-god-of-war",
     title: "God of War Poster",
     description: "High-impact poster design utilizing dramatic lighting and typography to capture the essence of the gaming franchise.",
     image: posterGodOfWarImg,
     category: "Posters & Covers",
   },
   {
-    id: "66",
-    title: "The Night King Poster",
-    description: "Atmospheric and detailed character poster crafted for entertainment marketing.",
-    image: posterTheKnightKingImg,
-    category: "Posters & Covers",
-  },
-  {
-    id: "67",
-    title: "Magazine Cover Layout",
-    description: "Striking editorial layout and cover design focused on bold typography and visual hierarchy.",
-    image: posterMagazineCoverImg,
-    category: "Posters & Covers",
-  },
-  {
-    id: "68",
-    title: "Music Album Cover",
-    description: "Creative art direction and layout for an album cover, blending modern typography with stylized imagery.",
-    image: posterAlbumCoverImg,
-    category: "Posters & Covers",
-  },
-  {
-    id: "69",
+    id: "poster-gourmet-burger",
     title: "Gourmet Burger Poster",
     description: "Vibrant and appetizing promotional poster designed to drive fast-food sales and brand awareness.",
     image: posterBurgerAdPosterImg,
     category: "Posters & Covers",
   },
   {
-    id: "70",
+    id: "poster-anniversary",
+    title: "Anniversary Poster",
+    description: "Commemorative poster design tailored for special events and milestone celebrations.",
+    image: posterAnniversaryImg,
+    category: "Posters & Covers",
+    link: "https://delicate-salesman-ef8.notion.site/Stats-Snap-E-Commerce-Dashboard-2256f2ef586f80aabb61fe4b4caf9ab3",
+  },
+  {
+    id: "poster-magazine-cover",
+    title: "Magazine Cover Layout",
+    description: "Striking editorial layout and cover design focused on bold typography and visual hierarchy.",
+    image: posterMagazineCoverImg,
+    category: "Posters & Covers",
+  },
+
+  {
+    id: "poster-music-album",
+    title: "Music Album Cover",
+    description: "Creative art direction and layout for an album cover, blending modern typography with stylized imagery.",
+    image: posterAlbumCoverImg,
+    category: "Posters & Covers",
+  },
+  {
+    id: "poster-night-king",
+    title: "The Night King Poster",
+    description: "Atmospheric and detailed character poster crafted for entertainment marketing.",
+    image: posterTheKnightKingImg,
+    category: "Posters & Covers",
+  },
+
+
+  // ------------------------------------------
+  // 7. FESTIVE CREATIVES
+  // ------------------------------------------
+  {
+    id: "festive-happy-diwali",
+    title: "Happy Diwali",
+    description: "A visually striking festive greeting designed to maximize sharing and brand visibility during the holiday season.",
+    image: festiveDiwaliImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-christmas-greetings",
+    title: "Christmas Greetings",
+    description: "Vibrant and culturally resonant social media creative celebrating festive moments to build brand community.",
+    image: festiveChristmasImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-happy-new-year",
+    title: "Happy New Year",
+    description: "Celebratory digital asset designed to ring in the new year with bold, festive typography.",
+    image: festiveNewYearImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-maha-ashtami-blessings",
+    title: "Maha Ashtami Blessings",
+    description: "Devotional and visually rich post designed for Navratri festival engagement.",
+    image: festiveMahaAshtamiImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-makar-sankranti",
+    title: "Happy Makar Sankranti",
+    description: "Joyful and bright social media asset celebrating the traditional harvest festival.",
+    image: festiveMakarSankranti01Img,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-shubh-dhanteras",
+    title: "Shubh Dhanteras",
+    description: "Elegant festive post celebrating prosperity and tradition with rich visual elements.",
+    image: festiveDhanterasImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-diwali-v2",
+    title: "Diwali Greetings v2",
+    description: "Secondary Diwali campaign visual focusing on warmth, light, and festive joy.",
+    image: festiveDiwali02Img,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-happy-dussehra",
+    title: "Happy Dussehra",
+    description: "Culturally significant digital poster celebrating the triumph of good over evil.",
+    image: festiveDussehraImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-ganesh-chaturthi",
+    title: "Ganesh Chaturthi Greetings",
+    description: "Vibrant and respectful festive post crafted to celebrate traditional Indian holidays.",
+    image: festiveGaneshChaturthiImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-happy-holi",
+    title: "Happy Holi",
+    description: "Colorful and energetic social media creative capturing the spirit of the festival of colors.",
+    image: festiveHoliImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-independence-day",
+    title: "Independence Day Tribute",
+    description: "Patriotic and impactful digital poster created for a national holiday social media campaign.",
+    image: festiveIndependenceDayImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-maha-ashtami-v2",
+    title: "Maha Ashtami v2",
+    description: "Alternative festive creative utilizing traditional motifs and vibrant colors.",
+    image: festiveMahaAsthmi02Img,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-makar-sankranti-kites",
+    title: "Makar Sankranti Kites",
+    description: "Secondary campaign graphic capturing the cultural essence of the kite festival.",
+    image: festiveMakarSankranti02Img,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-merry-christmas-wishes",
+    title: "Merry Christmas Wishes",
+    description: "Warm and inviting holiday post tailored to spread seasonal cheer.",
+    image: festiveMerryChristmasImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-republic-day",
+    title: "Republic Day Honors",
+    description: "Stately and patriotic creative honoring the national heritage.",
+    image: festiveRepublicDayImg,
+    category: "Festive Creatives",
+  },
+  {
+    id: "festive-shubh-navratri",
+    title: "Shubh Navratri",
+    description: "Traditional and highly detailed festive post celebrating the nine nights of Navratri.",
+    image: festiveShubhNavratriImg,
+    category: "Festive Creatives",
+  },
+
+  // ------------------------------------------
+  // 8. PRINTABLES & MORE
+  // ------------------------------------------
+  {
+    id: "print-timeless-celebration",
     title: "Timeless Celebration Invite",
     description: "Elegant and sophisticated event invitation design focusing on typography and premium layout.",
     image: inviteTimelessCelebration01Img,
     images: [inviteTimelessCelebration02Img, inviteTimelessCelebration03Img],
     category: "Printables & More",
   },
+  {
+    id: "print-shubh-navratri-banner",
+    title: "Shubh Navratri Banner",
+    description: "Large-format printable festive asset created to celebrate the nine nights of Navratri.",
+    image: banner01Img,
+    images: [banner02Img, banner03Img, banner04Img, banner05Img, banner06Img, banner07Img, banner08Img, banner09Img],
+    category: "Printables & More",
+    link: "https://www.behance.net/kushagraarora3",
+  },
+  {
+    id: "print-otm-banner",
+    title: "OTM Banner",
+    description: "Professional exhibition banner designed for maximum visibility at the Outbound Travel Mart.",
+    image: bannerOtmBanner01Img,
+    images: [bannerOtmBanner02Img],
+    category: "Printables & More",
+    link: "https://www.behance.net/kushagraarora3",
+  },
 
-  // ==========================================
-  // 7. FESTIVE CREATIVES
-  // ==========================================
+  // ------------------------------------------
+  // 9. BANNERS & THUMBNAILS
+  // ------------------------------------------
   {
-    id: "71",
-    title: "Christmas Greetings",
-    description: "Vibrant and culturally resonant social media creative celebrating festive moments to build brand community.",
-    image: festiveChristmasImg,
-    category: "Festive Creatives",
+    id: "banner-hero-section",
+    title: "Hero Section",
+    description: "High-converting hero section layout designed to immediately capture user attention on landing pages.",
+    image: webBannerHeroSectionBannerImg,
+    category: "Banners & Thumbnails",
     link: "https://www.behance.net/kushagraarora3",
   },
   {
-    id: "72",
-    title: "Shubh Dhanteras",
-    description: "Elegant festive post celebrating prosperity and tradition with rich visual elements.",
-    image: festiveDhanterasImg,
-    category: "Festive Creatives",
+    id: "banner-beauty",
+    title: "Beauty Banner",
+    description: "Elegant web banner designed specifically for promotions in the beauty and cosmetics sector.",
+    image: webBannerBeautyBannerImg,
+    category: "Banners & Thumbnails",
     link: "https://www.behance.net/kushagraarora3",
   },
+
+
+  // ------------------------------------------
+  // 10. BRANDING & PACKAGING DESIGN
+  // ------------------------------------------
   {
-    id: "73",
-    title: "Diwali Greetings v2",
-    description: "Secondary Diwali campaign visual focusing on warmth, light, and festive joy.",
-    image: festiveDiwali02Img,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
+    id: "branding-premium-credit-card",
+    title: "Premium Credit Card Branding",
+    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
+    image: brandingCreditCard01Img,
+    images: [brandingCreditCard02Img, brandingMobileMockups01Img, brandingMobileMockups02Img],
+    category: "Branding & Packaging Design",
   },
-  {
-    id: "74",
-    title: "Happy Diwali",
-    description: "A visually striking festive greeting designed to maximize sharing and brand visibility during the holiday season.",
-    image: festiveDiwaliImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "75",
-    title: "Happy Dussehra",
-    description: "Culturally significant digital poster celebrating the triumph of good over evil.",
-    image: festiveDussehraImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "76",
-    title: "Ganesh Chaturthi Greetings",
-    description: "Vibrant and respectful festive post crafted to celebrate traditional Indian holidays.",
-    image: festiveGaneshChaturthiImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "77",
-    title: "Happy Holi",
-    description: "Colorful and energetic social media creative capturing the spirit of the festival of colors.",
-    image: festiveHoliImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "78",
-    title: "Independence Day Tribute",
-    description: "Patriotic and impactful digital poster created for a national holiday social media campaign.",
-    image: festiveIndependenceDayImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "79",
-    title: "Maha Ashtami Blessings",
-    description: "Devotional and visually rich post designed for Navratri festival engagement.",
-    image: festiveMahaAshtamiImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "80",
-    title: "Maha Ashtami v2",
-    description: "Alternative festive creative utilizing traditional motifs and vibrant colors.",
-    image: festiveMahaAsthmi02Img,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "81",
-    title: "Happy Makar Sankranti",
-    description: "Joyful and bright social media asset celebrating the traditional harvest festival.",
-    image: festiveMakarSankranti01Img,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "82",
-    title: "Makar Sankranti Kites",
-    description: "Secondary campaign graphic capturing the cultural essence of the kite festival.",
-    image: festiveMakarSankranti02Img,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "83",
-    title: "Merry Christmas Wishes",
-    description: "Warm and inviting holiday post tailored to spread seasonal cheer.",
-    image: festiveMerryChristmasImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "84",
-    title: "Happy New Year",
-    description: "Celebratory digital asset designed to ring in the new year with bold, festive typography.",
-    image: festiveNewYearImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "85",
-    title: "Republic Day Honors",
-    description: "Stately and patriotic creative honoring the national heritage.",
-    image: festiveRepublicDayImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  },
-  {
-    id: "86",
-    title: "Shubh Navratri",
-    description: "Traditional and highly detailed festive post celebrating the nine nights of Navratri.",
-    image: festiveShubhNavratriImg,
-    category: "Festive Creatives",
-    link: "https://www.behance.net/kushagraarora3",
-  }
 ];

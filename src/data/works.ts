@@ -360,7 +360,7 @@ export const works: WorkItem[] = [
   // ------------------------------------------
   {
     id: "social-marketing-campaign",
-    title: "Marketing Campaign Post",
+    title: "WhatsApp Marketing",
     description: "Versatile marketing asset designed to boost brand visibility and digital engagement.",
     image: socialMediaMarketingP1Img,
     images: [socialMediaMarketingP2Img],
@@ -375,7 +375,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-toshiba-tech",
-    title: "Toshiba Tech Display",
+    title: "Toshiba 4K TV",
     description: "Clean, technical product graphic highlighting electronic reliability and modern design.",
     image: socialMediaToshibaImg,
     category: "Social Media Creatives",
@@ -396,7 +396,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-beauty-banner",
-    title: "Beauty Banner Ad",
+    title: "Beauty Products",
     description: "Vibrant and aesthetic social media creative driving user acquisition for beauty services.",
     image: socialMediaBeautyBannerImg,
     category: "Social Media Creatives",
@@ -445,28 +445,28 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-organic-ghee",
-    title: "Organic Ghee Highlight",
+    title: "Desi Cow Ghee",
     description: "Premium product showcase highlighting organic qualities and traditional branding.",
     image: socialMediaGheeAdImg,
     category: "Social Media Creatives",
   },
   {
     id: "social-colosseum-tour",
-    title: "Colosseum Tour Promo",
+    title: "Visit Colosseum",
     description: "Captivating promotional visual designed to boost tourism awareness for historic European destinations.",
     image: socialMediaColosseumImg,
     category: "Social Media Creatives",
   },
   {
     id: "social-core-services",
-    title: "Core Services Highlight",
+    title: "Specialized Services",
     description: "Clean and informative social media creative detailing core business services and value propositions.",
     image: socialMediaServicesPostImg,
     category: "Social Media Creatives",
   },
   {
     id: "social-natural-honey",
-    title: "Natural Honey Showcase",
+    title: "Natural Honey",
     description: "Nature-inspired product promotional post emphasizing purity and health benefits.",
     image: socialMediaHoneyAdImg,
     category: "Social Media Creatives",
@@ -474,7 +474,7 @@ export const works: WorkItem[] = [
 
   {
     id: "social-rovaniemi-promo",
-    title: "Rovaniemi Travel Promo",
+    title: "Santa's Rovaniemi",
     description: "Secondary campaign asset driving bookings for exclusive Arctic winter experiences.",
     image: socialMediaRovaniemi2Img,
     images: [socialMediaRovaniemiImg],
@@ -496,7 +496,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-happy-travelers",
-    title: "Happy Travelers Spotlight",
+    title: "Happy Travelers",
     description: "Lifestyle-focused social media post building brand trust through customer satisfaction visuals.",
     image: socialMediaHappyTravelersImg,
     category: "Social Media Creatives",
@@ -525,7 +525,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-gtdmc-brand",
-    title: "GTDMC Brand Feature",
+    title: "Why Choose Us",
     description: "Corporate profile post establishing industry authority and travel expertise.",
     image: socialMediaGtdmcPost1Img,
     category: "Social Media Creatives",
@@ -539,17 +539,15 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-hair-clinic-testimonial",
-    title: "Hair Clinic Testimonial",
+    title: "Hair Clinic",
     description: "Secondary campaign graphic emphasizing patient results and professional care.",
     image: socialMediaHairTransplantPost02Img,
     images: [socialMediaHairTransplantPost01Img],
     category: "Social Media Creatives",
   },
-
-
   {
     id: "social-arora-dezigns",
-    title: "Arora Dezigns Profile",
+    title: "Arora Dezigns",
     description: "Self-promotional studio graphic showcasing brand identity and creative capabilities.",
     image: socialMediaAroraDezignImg,
     images: [socialMediaAroraDezign01Img],
@@ -557,19 +555,18 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-burger-ad",
-    title: "Burger Advertisement",
+    title: "Delicious Burger",
     description: "Appetizing food marketing post designed to maximize visual appeal and drive conversions.",
     image: socialMediaBurgerAd02Img,
     category: "Social Media Creatives",
   },
   {
     id: "social-telaster-feature",
-    title: "Telaster Feature",
+    title: "Telaster",
     description: "Brand-focused social media creative highlighting product features and modern aesthetics.",
     image: socialMediaTelasterImg,
     category: "Social Media Creatives",
   },
-
   {
     id: "social-ttf-invite",
     title: "TTF Exhibition Invite",
@@ -579,15 +576,14 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-newspaper-ad",
-    title: "Newspaper Advertisement",
+    title: "Promotion on Newspaper",
     description: "Classic print-style digital asset formulated for broad audience reach.",
     image: socialMediaNewspaperAdImg,
     category: "Social Media Creatives",
   },
-
   {
     id: "social-nike-footwear",
-    title: "Nike Footwear Concept",
+    title: "Nike Footwear",
     description: "High-energy athletic product showcase focused on street style and performance.",
     image: socialMediaNikeShoesImg,
     category: "Social Media Creatives",
@@ -602,7 +598,7 @@ export const works: WorkItem[] = [
 
   {
     id: "social-city-breaks",
-    title: "City Breaks Travel Post",
+    title: "City Breaks Travel",
     description: "Inspiring travel creative focused on short weekend getaways and urban exploration.",
     image: socialMediaCityBreaksImg,
     category: "Social Media Creatives",
@@ -616,7 +612,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "social-combo-offer",
-    title: "Combo Offer Promotion",
+    title: "Combo Offer",
     description: "Sales-driven promotional graphic highlighting special deals to maximize consumer interest.",
     image: socialMediaComboOfferImg,
     category: "Social Media Creatives",
@@ -627,7 +623,7 @@ export const works: WorkItem[] = [
   // ------------------------------------------
   {
     id: "ux-spinnly-wash",
-    title: "Spinnly Wash Platform",
+    title: "Spinnly Wash | Mobile App",
     description: "Comprehensive UX/UI design for a digital platform, ensuring a frictionless user experience from start to finish.",
     image: uxSpinnlyCoverImg,
     images: [uxSpinnlyHomeImg, uxSpinnlySplash03Img, uxSpinnlySubscriptionImg, uxSpinnlyHome02Img],
@@ -636,7 +632,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "ux-the-one-awards",
-    title: "The One Awards - Website Landing Page",
+    title: "The One Awards | Website Landing Page",
     description: "Clean, user-centric interface design focused on seamless navigation, strong visual hierarchy, and an engaging digital experience.",
     image: uxTheOneAwardsImg,
     images: [uxTheOneAwards01Img, uxTheOneAwards02Img, uxTheOneAwards03Img],
@@ -672,7 +668,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "ux-nft-rizz",
-    title: "NFT Rizz - Website Landing Page",
+    title: "NFT Rizz | Website Landing Page",
     description: "Modern web interface designed for the Web3 space, prioritizing an intuitive user journey and bold aesthetics.",
     image: uxNftRizzImg,
     images: [uxNftRizz01Img, uxNftRizz02Img, uxNftRizz03Img, uxNftRizz05Img],
@@ -743,7 +739,7 @@ export const works: WorkItem[] = [
   // ------------------------------------------
   {
     id: "magazine-travel-2k26",
-    title: "Travel Magazine 2k26",
+    title: "Travel Magazine 2026",
     description: "Comprehensive editorial design and layout for a modern travel publication, showcasing global destinations.",
     image: magazineB2601CoverImg,
     images: [magazineB2602Img, magazineB2603Img, magazineB2604Img, magazineB2605Img, magazineB2606Img, magazineB2607Img, magazineB2608Img, magazineB2609Img, magazineB2610Img, magazineB2611Img, magazineB2612Img, magazineB2613Img, magazineB2614Img, magazineB2615Img, magazineB2616Img, magazineB2617Img, magazineB2618Img, magazineB2619Img, magazineB2620Img, magazineB2621Img, magazineB2622Img, magazineB2623Img, magazineB2624Img, magazineB2625Img, magazineB2626Img, magazineB2627Img, magazineB2628Img, magazineB2629Img, magazineB2630Img, magazineB2631Img, magazineB2632Img, magazineB2633Img, magazineB2634Img, magazineB2635Img, magazineB2636Img, magazineB2637Img, magazineB2638Img, magazineB2639Img, magazineB2640Img, magazineB2641Img, magazineB2642Img, magazineB2643Img, magazineB2644Img, magazineB2645Img, magazineB2646Img, magazineB2647Img, magazineB2648Img, magazineB2649Img, magazineB2650Img, magazineB2651Img, magazineB2652Img],
@@ -751,7 +747,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "magazine-travel-2k25",
-    title: "Travel Magazine 2k25",
+    title: "Travel Magazine 2025",
     description: "Multi-page brochure design focusing on clean typography and engaging visual storytelling for the travel industry.",
     image: magazineB2501Img,
     images: [magazineB2502Img, magazineB2503Img, magazineB2504Img, magazineB2505Img, magazineB2506Img, magazineB2507Img, magazineB2508Img, magazineB2509Img, magazineB2510Img, magazineB2511Img, magazineB2512Img, magazineB2513Img, magazineB2514Img, magazineB2515Img, magazineB2516Img, magazineB2517Img, magazineB2518Img, magazineB2519Img, magazineB2520Img],
@@ -768,7 +764,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "magazine-paris-to-rome",
-    title: "Paris to Rome Guide",
+    title: "Paris to Rome",
     description: "Editorial layout and brochure design creating a cohesive visual narrative for cross-country European travel.",
     image: magazineParisRome01Img,
     images: [magazineParisRome02Img, magazineParisRome03Img, magazineParisRome04Img, magazineParisRome05Img, magazineParisRome06Img, magazineParisRome07Img, magazineParisRome08Img, magazineParisRome09Img, magazineParisRome10Img, magazineParisRome11Img, magazineParisRome12Img, magazineParisRome13Img, magazineParisRome14Img, magazineParisRome15Img],
@@ -789,7 +785,7 @@ export const works: WorkItem[] = [
   },
   {
     id: "carousel-mamaearth-facewash",
-    title: "Mamaearth Facewash Features",
+    title: "Mamaearth Facewash",
     description: "Clean, fresh, and product-focused carousel design highlighting key skincare benefits and brand aesthetics.",
     image: carouselMamaearth01Img,
     images: [carouselMamaearth02Img, carouselMamaearth03Img, carouselMamaearth04Img, carouselMamaearth05Img],
